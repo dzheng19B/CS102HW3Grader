@@ -1,0 +1,11 @@
+start = 0
+end = len(nums) - 1
+returnable = 0
+while start < end:
+if start + end = value:
+returnable++
+end--
+else
+start++
+
+return returnable

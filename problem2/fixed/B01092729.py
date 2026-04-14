@@ -1,0 +1,18 @@
+Slight issue, the question says that valid pairs are <= T, but the first example answer excludes pairs where the sum is equal to T. In the version I wrote, these pairs are included to match the question.
+
+def count_pairs(nums, T):
+    leftptr = 0;
+    rightptr = 1;
+    validPairs = 0;
+    while (leftptr < len(nums) - 1):
+        if (nums[leftptr] + nums[rightptr] <= T):
+            if (nums[leftptr] < nums[rightptr]):
+                validPairs+=1;
+                rightptr+=1;
+                if(rightptr >= len(nums)):
+                    leftptr += 1;
+                    rightptr = leftptr+1;
+                else:
+                    leftptr += 1;
+                    rightptr = leftptr+1;
+                    return validPairs;

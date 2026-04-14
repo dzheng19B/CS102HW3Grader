@@ -1,0 +1,1 @@
+The time complexity of this solution is O(n). It is O(n) because to build the map, it has to pass through the array once. After it passes through the array, it has to pass through the stored indices. It passes through those twice, making this a linear problem. 

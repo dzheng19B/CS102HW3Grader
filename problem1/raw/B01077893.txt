@@ -1,0 +1,30 @@
+int n = nums.length; int windowSum = 0; int negativeCount = 0;int maxSum = 0;
+boolean foundValid = false;
+for (int i = 0; i < k; i++) {
+windowSum += nums[i];
+ if (nums[i] < 0) {
+negativeCount++;
+}
+}
+if (negativeCount <= 1) {
+maxSum = windowSum;
+ foundValid = true;
+}
+for (int i = k; i < n; i++) {
+windowSum += nums[i];
+if (nums[i] < 0) {
+negativeCount++;
+}
+windowSum -= nums[i - k];
+if (nums[i - k] < 0) {
+negativeCount--;
+}
+ if (negativeCount <= 1) {
+maxSum = Math.max(maxSum, windowSum);
+foundValid = true;
+}
+}
+if(foundValid){
+return maxSum
+}
+return 0;

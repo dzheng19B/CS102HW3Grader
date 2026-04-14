@@ -1,0 +1,13 @@
+def count_pairs(nums, T):
+       
+       #set up left/right and initialize count
+       left = 0
+       right = len(nums - 1)
+       count = 0
+
+       while left < right:
+                 if (nums[left] + nums[right]) <=T:
+                          count += (right - left)
+                          left += 1
+                 else:
+                          right -= 1

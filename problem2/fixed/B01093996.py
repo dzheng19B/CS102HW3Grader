@@ -1,0 +1,15 @@
+r pointer at last index of nums
+l pointer at start index of nums
+pairs = 0
+
+while l is less than r:
+    if value at l plus value at r is greater than T:
+        decrement r
+    else:
+        pairs = r - l
+        increment l
+
+        print pairs
+
+
+

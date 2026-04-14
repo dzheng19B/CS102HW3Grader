@@ -1,0 +1,11 @@
+def countPairs(nums, T):
+    count = 0
+    i = 0
+    j = len(nums)-1
+    while i<j:
+        if nums[i]+nums[j] <=T:
+            count += j-i
+            i += 1
+            }else{
+            j -= 1
+            return count

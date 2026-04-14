@@ -1,0 +1,31 @@
+def max_valid_window_sum(nums, k):
+    # Paste this into your answer if you want to use python
+    sum = 0
+    best = 0
+    neg = 0
+
+    for i in range(k):
+        sum += nums[j]
+        if nums[j] < 0:
+            neg += 1
+
+            if neg <= 1:
+                best = sum
+
+                for j in range(k, len(nums)):
+                    i = j - k
+                    sum -= nums[i]
+                    if nums[i] < 0:
+                        neg -= 1
+
+                        sum += nums[j]
+                        if nums[j] < 0:
+                            neg += 1
+
+                            if neg <= 1:
+                                best = max(best, sum)
+
+
+
+
+                                return best

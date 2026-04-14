@@ -1,0 +1,99 @@
+{
+  "student_id": "B01096960",
+  "status": "needs-manual-review",
+  "tests_passed": 0,
+  "tests_failed": 10,
+  "total_score": 0.0,
+  "test_results": [
+    {
+      "id": 1,
+      "description": "Problem statement example 1 (note: problem statement lists 4 but correct answer is 5 \u2014 (2,4)=6 is also valid)",
+      "passed": false,
+      "expected": 5,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 2,
+      "description": "Problem statement example 2",
+      "passed": false,
+      "expected": 4,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 3,
+      "description": "No valid pairs \u2014 all sums exceed T",
+      "passed": false,
+      "expected": 0,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 4,
+      "description": "All pairs valid \u2014 identical elements",
+      "passed": false,
+      "expected": 3,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 5,
+      "description": "Negative numbers, T=0",
+      "passed": false,
+      "expected": 5,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 6,
+      "description": "Minimum size array (2 elements), one valid pair",
+      "passed": false,
+      "expected": 1,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 7,
+      "description": "Boundary \u2014 pairs exactly equal T count as valid",
+      "passed": false,
+      "expected": 4,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 8,
+      "description": "Larger sorted array, partial pairs",
+      "passed": false,
+      "expected": 6,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 9,
+      "description": "All negatives, T negative",
+      "passed": false,
+      "expected": 3,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    },
+    {
+      "id": 10,
+      "description": "Duplicates \u2014 all pairs valid",
+      "passed": false,
+      "expected": 6,
+      "actual": null,
+      "error": "import_error: unmatched '}' (B01096960.py, line 10)",
+      "timed_out": false
+    }
+  ]
+}

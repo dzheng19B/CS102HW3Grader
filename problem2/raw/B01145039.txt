@@ -1,0 +1,11 @@
+def count_pairs(nums, T):
+    pairs = 0
+    r = 1
+    l = 0
+    while(r >= l):
+        if(nums[r] + nums[l] <= T && r < len(nums) - 1):
+                pairs++
+                r++
+        else:
+                l++
+    return pairs        
