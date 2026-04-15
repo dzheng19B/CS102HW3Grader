@@ -1,9 +1,0 @@
-def count_pairs(nums, T):
-    right = 1
-    left = 0
-    while right > left:
-    	if sum of left and right <= T:
-		print left and right num
-		move right forward one
-	elif sum of left and right > T or right >= length of nums
-		move left one forward and right one back
