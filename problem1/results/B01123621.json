@@ -1,0 +1,175 @@
+{
+  "load_error": null,
+  "results": [
+    {
+      "name": "spec_example_1",
+      "expected": 8,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "spec_example_2_no_valid",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "all_positive",
+      "expected": 12,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "all_positive_k1",
+      "expected": 5,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "single_negative_anywhere",
+      "expected": 15,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "two_negatives_adjacent_invalidate",
+      "expected": 5,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "k_equals_n_one_neg",
+      "expected": 4,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "k_equals_n_two_negs",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "k_equals_n_all_positive",
+      "expected": 60,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "k_1_picks_max_including_negative_if_all_neg",
+      "expected": -1,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "k_1_picks_max",
+      "expected": 7,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "zeros_do_not_count_as_negative",
+      "expected": 0,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "window_all_have_one_negative",
+      "expected": -1,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "negative_makes_sum_smaller_than_zero",
+      "expected": 2,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "large_positive_overwhelms",
+      "expected": 199,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "window_with_neg_still_best",
+      "expected": 100,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "all_negatives_k2",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "single_element_array",
+      "expected": 7,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "single_element_negative",
+      "expected": -7,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "large_k_equals_len",
+      "expected": 19,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "duplicates_positive",
+      "expected": 6,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "alternating_neg_pos_k2",
+      "expected": 4,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "alternating_k3_invalid_half",
+      "expected": 9,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "boundary_tie_k3",
+      "expected": 6,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    },
+    {
+      "name": "negative_at_end_valid",
+      "expected": 30,
+      "got": null,
+      "passed": false,
+      "error": "UnboundLocalError: local variable 'max_sum' referenced before assignment"
+    }
+  ],
+  "student_id": "B01123621",
+  "tests_passed": 3,
+  "tests_failed": 22
+}

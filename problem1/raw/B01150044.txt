@@ -1,0 +1,17 @@
+set left to 0
+set sum to 0
+set negativecount to 0
+set maxsum to 0
+
+loop from 0 until the end of the array
+
+sum = nums(right) + sum
+
+if nums(right) < 0
+negativecount = negativecount + 1
+
+if right - left + 1 > k
+
+sun = sum - nums(left)
+
+

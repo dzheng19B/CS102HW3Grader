@@ -1,0 +1,158 @@
+{
+  "load_error": null,
+  "results": [
+    {
+      "name": "spec_example_1",
+      "expected": 8,
+      "got": 8,
+      "passed": true
+    },
+    {
+      "name": "spec_example_2_no_valid",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "all_positive",
+      "expected": 12,
+      "got": 12,
+      "passed": true
+    },
+    {
+      "name": "all_positive_k1",
+      "expected": 5,
+      "got": 5,
+      "passed": true
+    },
+    {
+      "name": "single_negative_anywhere",
+      "expected": 15,
+      "got": 15,
+      "passed": true
+    },
+    {
+      "name": "two_negatives_adjacent_invalidate",
+      "expected": 5,
+      "got": 5,
+      "passed": true
+    },
+    {
+      "name": "k_equals_n_one_neg",
+      "expected": 4,
+      "got": 4,
+      "passed": true
+    },
+    {
+      "name": "k_equals_n_two_negs",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "k_equals_n_all_positive",
+      "expected": 60,
+      "got": 60,
+      "passed": true
+    },
+    {
+      "name": "k_1_picks_max_including_negative_if_all_neg",
+      "expected": -1,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "k_1_picks_max",
+      "expected": 7,
+      "got": 7,
+      "passed": true
+    },
+    {
+      "name": "zeros_do_not_count_as_negative",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "window_all_have_one_negative",
+      "expected": -1,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "negative_makes_sum_smaller_than_zero",
+      "expected": 2,
+      "got": 2,
+      "passed": true
+    },
+    {
+      "name": "large_positive_overwhelms",
+      "expected": 199,
+      "got": 199,
+      "passed": true
+    },
+    {
+      "name": "window_with_neg_still_best",
+      "expected": 100,
+      "got": 100,
+      "passed": true
+    },
+    {
+      "name": "all_negatives_k2",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "single_element_array",
+      "expected": 7,
+      "got": 7,
+      "passed": true
+    },
+    {
+      "name": "single_element_negative",
+      "expected": -7,
+      "got": 0,
+      "passed": false
+    },
+    {
+      "name": "large_k_equals_len",
+      "expected": 19,
+      "got": 19,
+      "passed": true
+    },
+    {
+      "name": "duplicates_positive",
+      "expected": 6,
+      "got": 6,
+      "passed": true
+    },
+    {
+      "name": "alternating_neg_pos_k2",
+      "expected": 4,
+      "got": 4,
+      "passed": true
+    },
+    {
+      "name": "alternating_k3_invalid_half",
+      "expected": 9,
+      "got": 9,
+      "passed": true
+    },
+    {
+      "name": "boundary_tie_k3",
+      "expected": 6,
+      "got": 6,
+      "passed": true
+    },
+    {
+      "name": "negative_at_end_valid",
+      "expected": 30,
+      "got": 30,
+      "passed": true
+    }
+  ],
+  "student_id": "B01072761",
+  "tests_passed": 22,
+  "tests_failed": 3
+}

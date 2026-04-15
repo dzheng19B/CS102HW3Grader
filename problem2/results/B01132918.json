@@ -1,0 +1,140 @@
+{
+  "load_error": null,
+  "results": [
+    {
+      "name": "spec_example_1",
+      "expected": 5,
+      "got": 5,
+      "passed": true
+    },
+    {
+      "name": "spec_example_2",
+      "expected": 4,
+      "got": 4,
+      "passed": true
+    },
+    {
+      "name": "all_pairs_valid",
+      "expected": 6,
+      "got": 6,
+      "passed": true
+    },
+    {
+      "name": "no_pairs_valid",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "two_elements_valid",
+      "expected": 1,
+      "got": 1,
+      "passed": true
+    },
+    {
+      "name": "two_elements_invalid",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "two_elements_equal_T",
+      "expected": 1,
+      "got": 1,
+      "passed": true
+    },
+    {
+      "name": "negatives_sorted",
+      "expected": 8,
+      "got": 8,
+      "passed": true
+    },
+    {
+      "name": "all_negatives",
+      "expected": 3,
+      "got": 3,
+      "passed": true
+    },
+    {
+      "name": "duplicates",
+      "expected": 6,
+      "got": 6,
+      "passed": true
+    },
+    {
+      "name": "duplicates_boundary",
+      "expected": 4,
+      "got": 4,
+      "passed": true
+    },
+    {
+      "name": "zero_target_with_negatives",
+      "expected": 3,
+      "got": 3,
+      "passed": true
+    },
+    {
+      "name": "large_array_all_valid",
+      "expected": 15,
+      "got": 15,
+      "passed": true
+    },
+    {
+      "name": "exact_target_hit",
+      "expected": 5,
+      "got": 5,
+      "passed": true
+    },
+    {
+      "name": "T_smaller_than_smallest_sum",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "single_valid_pair",
+      "expected": 1,
+      "got": 1,
+      "passed": true
+    },
+    {
+      "name": "long_increasing",
+      "expected": 16,
+      "got": 16,
+      "passed": true
+    },
+    {
+      "name": "all_same_value_large",
+      "expected": 10,
+      "got": 10,
+      "passed": true
+    },
+    {
+      "name": "all_same_value_T_less",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "name": "mixed_neg_pos",
+      "expected": 8,
+      "got": 8,
+      "passed": true
+    },
+    {
+      "name": "large_T",
+      "expected": 10,
+      "got": 10,
+      "passed": true
+    },
+    {
+      "name": "negative_T",
+      "expected": 8,
+      "got": 8,
+      "passed": true
+    }
+  ],
+  "student_id": "B01132918",
+  "tests_passed": 22,
+  "tests_failed": 0
+}

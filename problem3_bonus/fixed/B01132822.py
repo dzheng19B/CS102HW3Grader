@@ -1,0 +1,32 @@
+# [force-runnable] original code was unparseable; all lines commented below.
+# https:# i.postimg.cc/m2J1ws86/image.png
+# class Solution:
+# def minimumDistance(self, nums: List[int]) -> int:
+#     #create dic
+#     dic = {key: list() for key in nums} #line 4
+#     #print(dic)
+#     for i, key in enumerate(nums):
+#         dic[key].append(i) #line 8
+#         #print(dic)
+#         #print(dic)
+#         minDistance = 1000000 #line 11
+#         for value in dic.values():
+#             if(len(value) >= 3):
+#                 #find distance
+#                 #2 pointer sliding window
+#                 i = 2#index of value - represents right index
+#                 while i < len(value):
+#                     minDistance = min((value[i] - value[i-2]) * 2, minDistance)
+#                     i += 1
+#                     if minDistance == 1000000:
+#                         return -1 #line 21
+#                         return minDistance
+# 
+# 
+#                         My solution is broken down into two parts: create a dictionary from which I can easily find all good tuples (lines 4-8), and find the minimum of all good tuples (lines 11-21). The dictionary's keys are all values in nums, and the dictionary's values are the indicies of nums at which those values appear. Appending to the end of a list has a time complexity of O(1), and since I iterate through nums, the time complexity of part 1 is O(1 * n) = O(n).
+# 
+#                         I initialize minDistance with 1,000,000 because n is at most 100,000, which is less than 1,000,000.
+# 
+#                         To find the distance, I only need to find the lowest and highest values of the tuple. Since the list (the value of the dictionary) comes pre-sorted, I use a sliding window and iterate through the list to find the value. Finding the minimum distance is time complexity O(1) since random access and arithmetic operations are both O(1). Iterating through the list is time complexity O(1 * n) = O(n), and iterating through dictionary is still O(n) because the number of elements in the list is a grand total of n, not n^2. Therefore, the time complexity of part 2 is O(n).
+# 
+#                         The time complexity for the whole program is O(n) + O(n) = O(n).

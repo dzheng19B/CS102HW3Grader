@@ -1,8 +1,12 @@
 # Auto-Grading Pipeline
 
+Be concise when responding
+
 You are grading a Brightspace quiz export of LeetCode-style problems for ~73 students. The pipeline extracts code from the CSV, repairs syntax, runs an autograder, and audits any changes.
 
 ## Input
+
+`questions.md` is a copy and paste of the questions for the quiz. Use this to make sure you do not part of a student response as part of the question and vice versa.
 
 `submissions.csv` is a Brightspace export. Relevant columns:
 

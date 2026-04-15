@@ -1,0 +1,76 @@
+student_id,name,p1_score,p1_reason,p2_score,p2_reason,bonus
+B00906607,Vikram Minhas,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B00993732,Christian Zuniga,0.0/20 (0/25 tests),runtime error on all tests: NameError (x23) [force-runnable: injected `pass` into empty block(s); ambiguous re-indent],0/20,no submission (blank answer),no bonus submission
+B01006183,Isabella Yang,0.0/20 (0/25 tests),wrong output on every test (logic error) [ambiguous re-indent],4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],pseudocode (manual grade)
+B01019743,Juan Moran,0.0/20 (0/25 tests),runtime error on all tests: UnboundLocalError (x25),1.82/20 (2/22 tests),passed 2/22; failures: 6 wrong outputs; 14x IndexError,no bonus submission
+B01042677,Evan Weisberg,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01043907,Samuel Halsband,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,0.0/20 (0/22 tests),runtime error on all tests: IndexError (x22),no bonus submission
+B01046152,Ashley Carozza,0.8/20 (1/25 tests),passed 1/25; failures: 24 wrong outputs [ambiguous re-indent],20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01050731,Kyle Godzki,0.0/20 (0/25 tests),wrong output on every test (logic error) [ambiguous re-indent],4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],pseudocode (manual grade)
+B01055680,William Conroy,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],20.0/20 (22/22 tests),all tests passed [transpiled from Java],no bonus submission
+B01060013,Logan Regueiferos,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01061084,Ava Attina,0.0/20 (0/25 tests),wrong output on every test (logic error) [ambiguous re-indent],0/20 (0/0 tests),"failed to load: Traceback (most recent call last):
+  File ""C:\Users\danz3\Downloads\CS102HW3Grader\problem2\_runner.py"", line 12, in <mo",no bonus submission
+B01061183,Tianna Balkam,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01061829,Clare Calandra,20.0/20 (25/25 tests),all tests passed,4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],submitted but needs manual review (force-runnable / commented)
+B01061839,Stephania Calin,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01062056,Gaven Chan,0.8/20 (1/25 tests),passed 1/25; failures: 24 wrong outputs [ambiguous re-indent],4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],no bonus submission
+B01062784,Michael DiNapoli,0.0/20 (0/25 tests),runtime error on all tests: NameError (x17),0.0/20 (0/22 tests),wrong output on every test (logic error) [ambiguous re-indent],no bonus submission
+B01063375,Nicholas Friedlander,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],n/a,pseudocode — not auto-graded; grade manually,no bonus submission
+B01063628,Monica Gnajewski,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01069659,Kristen Lee,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],5.45/20 (6/22 tests),passed 6/22; failures: 16 wrong outputs [transpiled from Java],no bonus submission
+B01072737,Ryan Martin,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed [transpiled from Java],no bonus submission
+B01072761,Andrew McBean,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01073119,Ivan Cheung,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01074478,Elaine Zou,0.0/20 (0/25 tests),runtime error on all tests: UnboundLocalError (x25),20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01074783,Noel Maldonado,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01074900,Ved Patel,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],6.36/20 (7/22 tests),passed 7/22; failures: 15 wrong outputs [transpiled from Java],submitted but needs manual review (force-runnable / commented)
+B01075554,Alison Batz,n/a,pseudocode — not auto-graded; grade manually,n/a,pseudocode — not auto-graded; grade manually,no bonus submission
+B01077623,Ryan Tsui,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],submitted (python) — manual LeetCode POTD grade
+B01077715,Hewitt Wang,2.4/20 (3/25 tests),passed 3/25; failures: 22 wrong outputs,0.91/20 (1/22 tests),passed 1/22; failures: 21 wrong outputs [ambiguous re-indent],submitted but needs manual review (force-runnable / commented)
+B01077893,Kevin Yang,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],no bonus submission
+B01077946,Xinlin Wu,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01084139,Jin Noh,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01084354,Reginald Juance,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01090335,Jake Steck,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01092729,Dominic Vega,16.8/20 (21/25 tests),passed 21/25; failures: 4 wrong outputs,3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01093996,Rijaa Zaidi,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01095016,Jiarong Zhang,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],20.0/20 (22/22 tests),all tests passed [transpiled from Java],no bonus submission
+B01096960,Brian Lin,0.0/20 (0/25 tests),runtime error on all tests: TypeError (x25) [transpiled from Java],20.0/20 (22/22 tests),all tests passed [transpiled from Java],no bonus submission
+B01097725,Parks Rpk,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],pseudocode (manual grade)
+B01109304,Ryan Zhang,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01111528,Ian Porto,6.4/20 (8/25 tests),passed 8/25; failures: 17 wrong outputs,0/20,no submission (blank answer),no bonus submission
+B01121023,Danila Safronov,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01121801,Lilia Diusheyeva,20.0/20 (25/25 tests),all tests passed,0.0/20 (0/22 tests),runtime error on all tests: TypeError (x22),no bonus submission
+B01123621,Maddie Broderick,2.4/20 (3/25 tests),passed 3/25; failures: 5 wrong outputs; 17x UnboundLocalError,3.64/20 (4/22 tests),passed 4/22; failures: 18x UnboundLocalError,no bonus submission
+B01125201,Kathryn Schauber,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs,20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01126505,Carson Carey,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],0.0/20 (0/22 tests),wrong output on every test (logic error) [ambiguous re-indent; transpiled from Java],no bonus submission
+B01126541,Cheong Ting Eland Chan,0.0/20 (0/25 tests),runtime error on all tests: NameError (x25),20.0/20 (22/22 tests),all tests passed,pseudocode (manual grade)
+B01126559,Shunyi Chen,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01129735,Solomon Coverdale,0.0/20 (0/25 tests),wrong output on every test (logic error) [ambiguous re-indent],20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade
+B01131708,Jason Seng,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01132267,Chuyao Yu,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01132822,Matthew Park,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01132918,Kenneth Ng,16.0/20 (20/25 tests),passed 20/25; failures: 5 wrong outputs,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01133126,Tiffany Lin,20.0/20 (25/25 tests),all tests passed,0.0/20 (0/22 tests),wrong output on every test (logic error) [ambiguous re-indent],no bonus submission
+B01137729,Jason Guo,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],submitted (python) — manual LeetCode POTD grade
+B01137834,William Connors,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],pseudocode (manual grade)
+B01138859,Sean Carhart,0.0/20 (0/25 tests),runtime error on all tests: AttributeError (x25) [transpiled from Java],0.0/20 (0/22 tests),runtime error on all tests: AttributeError (x22) [transpiled from Java],no bonus submission
+B01140660,Naman Kukreti,20.0/20 (25/25 tests),all tests passed,0.0/20 (0/22 tests),wrong output on every test (logic error) [ambiguous re-indent],submitted but needs manual review (force-runnable / commented)
+B01142869,Treyson Thelusma,12.8/20 (16/25 tests),passed 16/25; failures: 9 wrong outputs,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01143122,Kartik Wahlin,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01143435,Qianjun Zhou,0.0/20 (0/25 tests),runtime error on all tests: NameError (x25) [ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01143466,Santiago Zuluaga,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01144248,Gabriel Yang,0.0/20 (0/25 tests),runtime error on all tests: UnboundLocalError (x25) [ambiguous re-indent],4.55/20 (5/22 tests),passed 5/22; failures: 17 wrong outputs [ambiguous re-indent],no bonus submission
+B01144790,Lilian Yuan,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01145039,Jack Stevens,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01146794,Albert Chen,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs [ambiguous re-indent],0.0/20 (0/22 tests),wrong output on every test (logic error),no bonus submission
+B01150044,Zhi Xiong Lu,n/a,pseudocode — not auto-graded; grade manually,3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent; transpiled from Java],pseudocode (manual grade)
+B01156268,Max Stehura,4.8/20 (6/25 tests),passed 6/25; failures: 19 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01159005,Abdoul Razakou Mahaman Sani,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01163705,Ethan Wong,3.2/20 (4/25 tests),passed 4/25; failures: 21 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],3.64/20 (4/22 tests),passed 4/22; failures: 18 wrong outputs [force-runnable stub (original unparseable); ambiguous re-indent],no bonus submission
+B01164020,Justin Yu,17.6/20 (22/25 tests),passed 22/25; failures: 3 wrong outputs,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01170355,Vincent Zheng,0.0/20 (0/25 tests),wrong output on every test (logic error) [ambiguous re-indent],20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01171535,Kushagra Singh,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted but needs manual review (force-runnable / commented)
+B01171723,Sude Genc,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,no bonus submission
+B01172719,Varun Karamchandani,20.0/20 (25/25 tests),all tests passed,20.0/20 (22/22 tests),all tests passed,submitted (python) — manual LeetCode POTD grade

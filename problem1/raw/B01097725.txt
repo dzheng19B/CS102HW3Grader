@@ -1,0 +1,35 @@
+Function max_valid_window_sum(nums, k):
+
+    Set max_sum = 0
+    Set window_sum = 0
+    Set negative_count = 0
+
+    # Build the first window
+    For i from 0 to k-1:
+        Add nums[i] to window_sum
+        If nums[i] < 0:
+            Add 1 to negative_count
+
+    # Check if first window is valid (at most 1 negative)
+    If negative_count <= 1:
+        Set max_sum = window_sum
+
+    #Slide the window across the rest of the array
+    For right from k to len(nums)-1:
+        Set left = right - k   // left is the element being removed
+
+        #Bring in the new right element
+        Add nums[right] to window_sum
+        If nums[right] < 0:
+            Add 1 to negative_count
+
+        #Remove the old left element
+        Subtract nums[left] from window_sum
+        If nums[left] < 0:
+            Subtract 1 from negative_count
+
+        # If window is valid, update max if current sum is larger
+        If negative_count <= 1:
+            Set max_sum = max(max_sum, window_sum)
+
+    Return max_sum
