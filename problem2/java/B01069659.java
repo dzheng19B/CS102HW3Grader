@@ -1,0 +1,16 @@
+public class Solution {
+public static int countPairs(int[] nums, int T) {
+    int count = 0;
+    int i = 0;
+    int j = nums.length-1;
+    while(i<j){
+        if(nums[i]+nums[j] <=T){
+            count += j-i;
+            i++;
+        }else{
+            j--;
+        }
+    return count;
+}
+}
+}

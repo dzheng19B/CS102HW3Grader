@@ -1,0 +1,46 @@
+public class Solution {
+public static int maxValidWindowSum(int[] nums, int k) {
+   int max = 0;
+   int sum = 0;
+   int negatives = 0;
+   int size = nums.length;
+
+
+   if(k > size){
+      return 0;
+   }
+
+   for(int i=0;i<k;i++){
+      sum += nums[i];
+      if(nums[i] < 0){
+         negatives++;
+      }
+
+      if(negatives <= 1){
+         max = sum;
+      }
+   }
+
+   for(int i=k;i<size;i++){
+      sum += nums[i];
+      if(nums[i] < 0){
+         negatives++;
+      }
+
+      sum -= nums[i-k];
+      if(nums[i-k] < 0){
+         negatives--;
+      }
+
+      if(negatives <= 1){
+         if(max < sum){
+            max = sum;
+         }
+      }
+
+   }
+   return max;
+
+
+}
+}

@@ -1,0 +1,7 @@
+{
+  "student_id": "B01069659",
+  "load_error": "compile error: C:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01069659_6ebbque5\\Solution.java:3: error: illegal start of expression\npublic static int maxValidWindowSum(int[] nums, int k) {\n^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01069659_6ebbque5\\Solution.java:28: error: illegal start of type\n    return max;\n    ^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01069659_6ebbque5\\Solution.java:28: error: <identifier> expected\n    return max;\n              ^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01069659_6ebbque5\\S",
+  "results": [],
+  "tests_passed": 0,
+  "tests_failed": 0
+}

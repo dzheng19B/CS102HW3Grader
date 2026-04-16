@@ -1,0 +1,7 @@
+{
+  "student_id": "B01126505",
+  "load_error": "compile error: C:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01126505_ro3968jl\\Solution.java:14: error: cannot find symbol\n   if(r-l+1>k) {\n      ^\n  symbol:   variable r\n  location: class Solution\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01126505_ro3968jl\\Solution.java:21: error: cannot find symbol\nif(r-l+1 == k && negative <=1)\n   ^\n  symbol:   variable r\n  location: class Solution\n2 errors",
+  "results": [],
+  "tests_passed": 0,
+  "tests_failed": 0
+}

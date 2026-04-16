@@ -1,123 +1,127 @@
 # Auto-Grading Pipeline
 
-Be concise when responding
+Be concise when responding.
 
-You are grading a Brightspace quiz export of LeetCode-style problems for ~73 students. The pipeline extracts code from the CSV, repairs syntax, runs an autograder, and audits any changes.
+You are grading a Brightspace quiz export of LeetCode-style problems for ~74 students. The pipeline extracts code from the CSV, repairs syntax, runs autograders (native Python + native Java), and generates reports.
 
-## Input
+## Directory layout
 
-`questions.md` is a copy and paste of the questions for the quiz. Use this to make sure you do not part of a student response as part of the question and vice versa.
+```
+inputs/
+  submissions.csv          — Brightspace export (input)
+  questions.md             — quiz questions (input)
+  students.csv             — roster (written by stage 1, treated as input afterward)
+pipeline/
+  stage0_inspect.py        — inspection / sanity check
+  stage1_split.py          — split submissions.csv into per-problem raw/
+  stage1_override.py       — manual per-student overrides (e.g., use attempt #1)
+  stage2_repair.py         — Python syntax repair + force-runnable fallback
+  stage3_separate_langs.py — split fixed/ into python/, java/, pseudocode/
+  stage4_audit.py          — flag logic-affecting / ambiguous changes
+  stage5_breakdown.py      — per-student score breakdown report
+  stage6_full_dump.py      — single continuous report with every student's full data
+  stage7_split_reports.py  — split the full dump into per-topic reports
+  java_grader.py           — native Java grader (javac + java) for java/ subfolders
+  verify_tests.py          — sanity-check test_cases.json vs. reference solutions
+reports/
+  missing_mandatory.csv    — students missing a mandatory problem
+  overrides.md             — documented manual overrides
+  score_breakdown.md/.csv  — per-student score narrative
+  all_students_full.md     — one-file dump of every student's raw/fixed/diff/score
+  problem1_report.md       — same, filtered to Problem 1
+  problem2_report.md       — same, filtered to Problem 2
+  pseudocode_report.md     — all pseudocode submissions (manual grading)
+problem1/
+  problem_statement.md     — full Q Text
+  raw/<sid>.txt            — raw Answer field, untouched
+  fixed/<sid>.py           — syntax-repaired Python 3
+  fixed/<sid>.diff.md      — per-change log, tabular
+  python/<sid>.py          — Python-detected students (grader input)
+  java/<sid>.java          — Java-detected students (graded natively)
+  java/<sid>.diff.md       — Java repair changelog
+  pseudocode/<sid>.txt     — raw pseudocode (manual grade)
+  test_cases.json          — graded test cases
+  grader.py                — Python subprocess grader
+  results/<sid>.json       — Python run result
+  results/<sid>_java.json  — Java run result (javac+java)
+  results/summary.csv      — merged summary (Python + Java)
+  audit/<sid>.md           — logic-change audit
+  manifest.csv             — student_id, detected_language, attempt_num, raw_path, status
+problem2/                  — same structure
+problem3_bonus/            — same structure (no auto-grading; LeetCode POTD varies)
+CLAUDE.md                  — this file
+```
 
-`submissions.csv` is a Brightspace export. Relevant columns:
+All pipeline scripts resolve paths via `ROOT = Path(__file__).resolve().parent.parent` so they can be run from anywhere (`py pipeline/stage2_repair.py`).
 
-- `Org Defined ID` — student ID (e.g., `B01061084`). Use this as the canonical student ID.
-- `Attempt #` — 1, 2, etc. Some students have multiple attempts; **keep only the highest-numbered attempt per student per problem**.
-- `Attempt End` — timestamp, use as tiebreaker if Attempt # ties.
-- `Q Type` — filter to `WR` only. Ignore `MC`, `M-S`, and blank rows.
-- `Q Text` — identifies which problem the row belongs to (Q Title is empty for WR rows, do not rely on it).
-- `Answer` — the student's code as plain text. Indentation is often broken from textbox pasting.
-- `Bonus?` — UNRELIABLE. Do not use it to identify the bonus problem. Use Q Text prefix instead.
+## Input CSV
+
+`submissions.csv` columns used:
+
+- `Org Defined ID` — canonical student ID (e.g., `B01061084`).
+- `Attempt #` — keep only the highest-numbered attempt per (student, problem); tiebreak on `Attempt End`.
+- `Q Type` — filter to `WR` only. Ignore `MC`, `M-S`, blanks.
+- `Q Text` — identifies the problem by prefix (Q Title is empty for WR rows).
+- `Answer` — student's code as plain text. Indentation often broken from textbox paste.
+- `Bonus?` — UNRELIABLE. Use Q Text prefix instead.
 
 ## Problem set
 
-There are 4 WR rows per attempt. Map them by Q Text prefix:
+4 WR rows per attempt. Map by Q Text prefix:
 
 | Problem | Q Text starts with | Type | Goes in |
 |---|---|---|---|
 | 1 | `Maximum Valid Window Sum:` | mandatory coding | `problem1/` |
 | 2 | `Count Valid Pairs With Constraint` | mandatory coding | `problem2/` |
 | 3 | `Bonus\nComplete the problem of the day` | bonus coding | `problem3_bonus/` |
-| — | `Bonus\nHow are you going to prepare` | written reflection | **SKIP — do not extract** |
-
-Run the full pipeline (stages 1–4) independently for each of the 3 coding problems.
-
-## Directory layout (per problem)
-
-```
-problem1/
-  problem_statement.md     — full Q Text from any one row
-  raw/<student_id>.txt     — raw Answer field, untouched
-  fixed/<student_id>.py    — syntax-repaired Python 3
-  fixed/<student_id>.diff.md
-  grader.py
-  test_cases.json          — TODO: I will provide before stage 3
-  results/
-  audit/
-  manifest.csv             — student_id, detected_language, attempt_num, status
-```
-
-Top-level files:
-- `missing_mandatory.csv` — students missing problem 1 or problem 2 entirely.
-- `students.csv` — roster of all 73 student IDs seen in the file with name (FirstName, LastName).
+| — | `Bonus\nHow are you going to prepare` | written reflection | **SKIP** |
 
 ## Core rules
 
-1. **Latest attempt only.** Group by (`Org Defined ID`, problem). Keep the row with the highest `Attempt #`; if tied, the latest `Attempt End`. Discard older attempts.
-2. **Detect language from Answer content,** since there is no language column. Heuristic: presence of `def `/`:` → Python; `public `/`{`/`;` → Java; everything else or mixed natural language → pseudocode. Record the detection in the manifest.
-3. **Empty answers count as missing.** A student whose Answer is blank or whitespace-only for a mandatory problem goes into `missing_mandatory.csv`.
-4. **Never modify student logic.** Stage 2 only touches tokens that prevent parsing. Preserve wrong logic verbatim. Mark `needs-manual-review` if you cannot repair without guessing intent.
-5. **Pseudocode is not auto-graded.** Mark status `pseudocode`, skip stages 2–3 for that student. For mandatory problems pseudocode still counts as "submitted" — do NOT add to `missing_mandatory.csv`.
-6. **Every change logged** in the diff file, tagged `[syntax-only]`, `[ambiguous]`, or `[logic-affecting]`. Any non-syntax-only change auto-flags for manual review.
-7. **Stages are sequential and idempotent per problem.**
+1. **Latest attempt only.** Group by (`Org Defined ID`, problem). Highest `Attempt #`; tiebreak on `Attempt End`. Manual overrides go in `stage1_override.py` with rationale in `reports/overrides.md`.
+2. **Detect language from Answer content.** Heuristics: `def`/`:` → python; `public`/`{`/`;` → java; otherwise pseudocode or empty. Record in manifest.
+3. **Empty answers count as missing** for mandatory problems (added to `reports/missing_mandatory.csv`). Pseudocode counts as submitted (manual grade).
+4. **Never modify student logic.** Stage 2 only touches tokens that prevent parsing. Preserve wrong logic verbatim.
+5. **Every change logged** in `fixed/<sid>.diff.md` (and `java/<sid>.diff.md` for Java), tagged `[syntax-only]`, `[ambiguous]`, or `[logic-affecting]`. Any non-syntax-only change auto-flags for manual review.
+6. **Java students are graded natively** (not transpiled to Python). Their `python/<sid>.py` backup is not used for grading.
+7. **Force-runnable fallback (stage 2).** If AST parse still fails after repair attempts, inject `pass` into empty blocks; if still unparseable, emit `def <fn_name>(...): return 0` stub. This is tagged `[logic-affecting]` — student will score 0 but pipeline does not break. For P3 bonus (unknown fn), comment out all content instead.
+8. **Stages are sequential and idempotent per problem.**
 
-## Stage 0 — Inspect and confirm
+## Stages
 
-Open `submissions.csv`. Filter to `Q Type == 'WR'`. Print:
-- Total WR row count and number of unique students.
-- Count of rows per problem (by Q Text prefix above).
-- Number of students with multiple attempts and their IDs.
-- 2 sample Answer fields per problem (truncated to 300 chars) so I can sanity-check the language-detection heuristic.
+### Stage 0 — Inspect
+`py pipeline/stage0_inspect.py` — prints WR row counts, per-problem counts, multi-attempt students, language detection samples. STOP for confirmation.
 
-Then STOP and wait for my confirmation before continuing.
+### Stage 1 — Split and extract
+`py pipeline/stage1_split.py` — writes `inputs/students.csv`, `problem<N>/raw/<sid>.txt`, `problem<N>/manifest.csv`, `problem<N>/problem_statement.md`, and `reports/missing_mandatory.csv`.
+`py pipeline/stage1_override.py` — applies documented manual overrides.
 
-## Stage 1 — Split and extract
+### Stage 2 — Syntax repair
+`py pipeline/stage2_repair.py` — produces `problem<N>/fixed/<sid>.py` + diff. Python: normalize whitespace, typo fixes, colon/bracket fixes, signature wrap, conservative re-indent → aggressive re-indent → force-runnable stub. Java: mechanical Java→Python transpile for backup; Java files also separately repaired and graded natively in later stages.
 
-After I confirm:
+### Stage 3 — Separate by language
+`py pipeline/stage3_separate_langs.py` — splits `fixed/` into `python/`, `java/`, `pseudocode/`. For Java, copies raw to `java/<sid>.java` and runs minimal Java syntax repair (strip prose, add semicolons, `.length()`→`.length`, fallback `return 0;` only if no return exists anywhere, balance braces, wrap in `public class Solution { ... }`). Writes `java/<sid>.diff.md` in the same tabular format as Python diffs.
 
-- Write `students.csv` with all unique (Org Defined ID, FirstName, LastName) tuples.
-- For each of the 3 coding problems, extract its full Q Text to `problem<N>/problem_statement.md`.
-- For each (student, problem) pair, keep only the latest attempt and write the raw Answer to `problem<N>/raw/<student_id>.txt`.
-- Append to `problem<N>/manifest.csv`: `student_id`, `detected_language`, `attempt_num`, `raw_path`, `status` (initially `extracted` or `empty`).
-- After all 3 problems are split, write `missing_mandatory.csv` with columns `student_id`, `name`, `missing_problems`.
+### Stage 3b — Auto-grade
+Python: `py problem1/grader.py`, `py problem2/grader.py` — subprocess runner, 5s timeout, writes `results/<sid>.json` and `results/summary.csv`.
+Java: `py pipeline/java_grader.py` — generates a `Harness.java` with inlined test data, compiles student `Solution.java` + harness via `javac`, runs with `java`, merges results into `results/summary.csv` with `[java]` prefix.
 
-Do not modify Answer text in this stage — preserve whitespace, broken indentation, everything.
+### Stage 4 — Logic-change audit
+`py pipeline/stage4_audit.py` — any `[ambiguous]` / `[logic-affecting]` diff entry downgrades status to `needs-manual-review` and writes `audit/<sid>.md`.
 
-## Stage 2 — Syntax repair (per problem)
+### Stage 5 — Score breakdown
+`py pipeline/stage5_breakdown.py` — human-readable narrative at `reports/score_breakdown.md` + flat `reports/score_breakdown.csv`. Prefers Java results for Java-detected students.
 
-For each manifest row with `detected_language` in `python` or `java` and status `extracted`:
+### Stage 6 — Full dump
+`py pipeline/stage6_full_dump.py` — `reports/all_students_full.md`: one section per student with P1 diff → highlighted changes (collapsed) → raw → fixed, same for P2, P3 raw code, score summary. Sorted by combined score; manual-review students last.
 
-- Produce `problem<N>/fixed/<student_id>.py`, runnable Python 3.
-- Common fixes you can make freely as `[syntax-only]`: re-indenting code that lost indentation in the textbox paste, adding missing colons, closing brackets, fixing obvious typos in keywords (`retrun` → `return`), wrapping bare statements in the expected function signature.
-- For Java, mechanical transpile only (same control flow, same data structures). Otherwise mark `needs-manual-review`.
-- Produce `fixed/<student_id>.diff.md` listing every change with a tag and one-sentence reason.
-- Update manifest `status`: `repaired`, `needs-manual-review`, or `unrepairable`.
+### Stage 7 — Per-topic reports
+`py pipeline/stage7_split_reports.py` — splits the full dump into `reports/problem1_report.md`, `reports/problem2_report.md`, `reports/pseudocode_report.md`.
 
-Pseudocode rows: set status `pseudocode` and skip.
+## STOP points
 
-## Stage 3 — Auto-grader (per problem)
-
-Write `problem<N>/grader.py` as a deterministic Python script. It must:
-
-- Load `test_cases.json`.
-- For each file in `fixed/`, run it in a subprocess with a 5-second timeout, calling the expected solution function (TODO: I will give you the function name and signature for each problem before this stage runs).
-- Record per-test pass/fail, errors, timeouts.
-- Write `results/<student_id>.json` and `results/summary.csv` with columns: `student_id`, `tests_passed`, `tests_failed`, `total_score` (out of 20, scaled from test pass rate).
-
-Run the grader after writing it. Do not modify student files in this stage.
-
-## Stage 4 — Logic-change audit (per problem)
-
-For each student with status `repaired`, compare `raw/<student_id>.txt` against `fixed/<student_id>.py` and the diff. If any change actually altered control flow, conditions, return values, or data structures, write `audit/<student_id>.md` and downgrade status to `needs-manual-review`. Otherwise write a short audit confirming no logic changes.
-
-## Final output
-
-Print a per-problem summary plus an overall summary:
-
-- Per problem: total students, count by final status, path to `results/summary.csv`, list of flagged IDs.
-- Overall: students missing one or both mandatory problems, students who attempted the bonus problem (problem 3).
-
-STOP and ask me before:
+Ask before:
 - Continuing past stage 0 (confirm extraction counts and language detection).
-- Running stage 3 (I need to give you function signatures and `test_cases.json`).
+- Running stage 3b / auto-graders (confirm function signatures and `test_cases.json`).
 - Doing anything destructive.
-- Continuing if more than 20% of any problem's submissions end up flagged for manual review.
+- Continuing if more than 20% of any problem's submissions end up `needs-manual-review` or `unrepairable`.
