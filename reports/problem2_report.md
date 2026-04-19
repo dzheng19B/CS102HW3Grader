@@ -91,6 +91,10 @@ _74 students. Ordered by score (highest first); students needing manual review a
 11 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -151,6 +155,10 @@ _(no textual difference)_
 13 |    return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -210,6 +218,10 @@ _(no textual difference)_
 12 | 
 13 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -296,6 +308,10 @@ _(no textual difference)_
 17 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -372,6 +388,10 @@ _(no textual difference)_
 21 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -431,6 +451,10 @@ _(no textual difference)_
 12 | 
 13 |     return num_pairs
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -519,6 +543,10 @@ _(no textual difference)_
 13 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -606,6 +634,10 @@ _(no textual difference)_
 13 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -683,6 +715,10 @@ _(no textual difference)_
 17 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -742,6 +778,10 @@ _(no textual difference)_
 12 | 
 13 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -803,6 +843,10 @@ _(no textual difference)_
 13 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -854,6 +898,10 @@ _(no textual difference)_
 8 |          p1 += 1
 9 |    return res
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -910,6 +958,10 @@ _(no textual difference)_
 10 |             right -= 1
 11 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -970,6 +1022,10 @@ _(no textual difference)_
 12 |     
 13 |     return res
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1039,6 +1095,10 @@ _(no textual difference)_
 17 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -1098,6 +1158,10 @@ _(no textual difference)_
 12 | 
 13 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1160,6 +1224,10 @@ _(no textual difference)_
 13 |             
 14 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1235,6 +1303,10 @@ _(no textual difference)_
 15 | }
 16 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1320,6 +1392,10 @@ _(no textual difference)_
 17 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -1377,6 +1453,10 @@ _(no textual difference)_
 11 |     
 12 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1439,6 +1519,10 @@ _(no textual difference)_
 13 | 
 14 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1504,6 +1588,10 @@ _(no textual difference)_
 15 |     return cnt
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -1566,6 +1654,10 @@ _(no textual difference)_
 14 |     return num_pairs
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -1625,6 +1717,10 @@ _(no textual difference)_
 12 | 
 13 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1690,6 +1786,10 @@ _(no textual difference)_
 15 |     return pairs
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -1749,6 +1849,10 @@ _(no textual difference)_
 12 |             
 13 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1827,6 +1931,10 @@ _(no textual difference)_
 21 |             #print("dec r")
 22 |     return numPairs
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -1949,6 +2057,10 @@ _(no textual difference)_
 37 | } """
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -2036,6 +2148,10 @@ _(no textual difference)_
 13 |     return valid_pairs
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -2093,6 +2209,10 @@ _(no textual difference)_
 11 | 
 12 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2183,6 +2303,10 @@ _(no textual difference)_
 13 |     return n_pairs
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -2238,6 +2362,10 @@ _(no textual difference)_
 10 |             right -= 1
 11 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2298,6 +2426,10 @@ _(no textual difference)_
 12 | 
 13 |     return pairs
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2363,6 +2495,10 @@ _(no textual difference)_
 15 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -2422,6 +2558,10 @@ _(no textual difference)_
 12 | 
 13 |     return num_pair
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2484,6 +2624,10 @@ _(no textual difference)_
 13 |             
 14 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2551,6 +2695,10 @@ _(no textual difference)_
 16 |     return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (22/22 tests passed)
 
 ====================================================================================================
@@ -2606,6 +2754,10 @@ _(no textual difference)_
 10 |             right -= 1
 11 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2670,6 +2822,10 @@ _(no textual difference)_
 14 |     return count
 15 | # Note: I believe the correct output for Example 1 is 5 not 4 the pair (2,4) with sum 6 is also valid but missing from the problem.
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (22/22 tests passed)
 
@@ -2787,6 +2943,29 @@ _(no textual difference)_
 26 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `1`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `1`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `1`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `1`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `1`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 6.36/20  (7/22 tests passed)
 
 ====================================================================================================
@@ -2842,6 +3021,32 @@ _(no textual difference)_
 10 |                right -= 1
 11 |      return num_pairs
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -2926,6 +3131,34 @@ _(no textual difference)_
 12 |         return total_pairs
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `1`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `1`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `1`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `1`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `1`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `1`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 1.82/20  (2/22 tests passed)
 
 ====================================================================================================
@@ -2953,6 +3186,10 @@ _(empty)_
 **Fixed input:**
 
 _(empty)_
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** no results
 
@@ -3030,6 +3267,37 @@ _(empty)_
 17 |  
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Every case returned the wrong count.
+
+**Suggestion:** Count index pairs `(i, j)` with `i < j` where `nums[i] + nums[j] <= T`. A simple double loop `for i in range(n): for j in range(i+1, n)` is fine.
+
 **Score:** 0.0/20  (0/22 tests passed)
 
 ====================================================================================================
@@ -3102,6 +3370,12 @@ _(empty)_
 14 | return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Load error:** `Traceback (most recent call last):`
+
+**Suggestion:** The function couldn't be imported — check the signature is exactly `count_pairs(nums, T)` and that there's no stray top-level code causing an error.
+
 **Score:** 0/20  (0/0 tests passed)  -- Traceback (most recent call last):
 
 ====================================================================================================
@@ -3168,6 +3442,10 @@ _(no diff file)_
 **Fixed input:**
 
 _(empty)_
+
+**Potential Mistake & Suggestion:**
+
+_Pseudocode submission — manual grading; no auto-analysis._
 
 **Score:** no results
 
@@ -3245,6 +3523,12 @@ _(empty)_
 16 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01069659_5jmxa7wa\Solution.java:15: error: missing return statement`
+
+**Suggestion:** The function couldn't be imported — check the signature is exactly `count_pairs(nums, T)` and that there's no stray top-level code causing an error.
+
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01069659_5jmxa7wa\Solution.java:15: error: missing return state
 
 ====================================================================================================
@@ -3300,6 +3584,10 @@ _(no diff file)_
 
 _(empty)_
 
+**Potential Mistake & Suggestion:**
+
+_Pseudocode submission — manual grading; no auto-analysis._
+
 **Score:** no results
 
 ====================================================================================================
@@ -3327,6 +3615,10 @@ _(empty)_
 **Fixed input:**
 
 _(empty)_
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** no results
 
@@ -3422,6 +3714,37 @@ _(empty)_
 14 | 
 15 |     return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Every case returned the wrong count.
+
+**Suggestion:** Count index pairs `(i, j)` with `i < j` where `nums[i] + nums[j] <= T`. A simple double loop `for i in range(n): for j in range(i+1, n)` is fine.
 
 **Score:** 0.0/20  (0/22 tests passed)
 
@@ -3601,6 +3924,12 @@ _(empty)_
 64 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01138859_cyf0qtzk\Solution.java:3: error: illegal start of expression`
+
+**Suggestion:** The function couldn't be imported — check the signature is exactly `count_pairs(nums, T)` and that there's no stray top-level code causing an error.
+
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01138859_cyf0qtzk\Solution.java:3: error: illegal start of expr
 
 ====================================================================================================
@@ -3656,6 +3985,37 @@ _(no textual difference)_
 10 |             right -= 1
 11 |     print(pairs)
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Uses `print(...)` instead of `return`, so the grader sees `None`.
+
+**Suggestion:** Replace `print(...)` with `return ...`.
 
 **Score:** 0.0/20  (0/22 tests passed)
 
@@ -3752,6 +4112,31 @@ _(no textual difference)_
 15 |             return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 4.55/20  (5/22 tests passed)
 
 ====================================================================================================
@@ -3834,6 +4219,31 @@ _(no textual difference)_
 10 |             right -= 1
 11 |             return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 4.55/20  (5/22 tests passed)
 
@@ -3926,6 +4336,31 @@ _(no textual difference)_
 15 |             return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 4.55/20  (5/22 tests passed)
 
 ====================================================================================================
@@ -4015,6 +4450,31 @@ _(no textual difference)_
 13 |             return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 4.55/20  (5/22 tests passed)
 
 ====================================================================================================
@@ -4103,6 +4563,31 @@ _(no textual difference)_
 12 | 
 13 |             return count
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 4.55/20  (5/22 tests passed)
 
@@ -4202,6 +4687,31 @@ _(no textual difference)_
 16 |             return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `3`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `7`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `3`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `7`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `7`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `7`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 4.55/20  (5/22 tests passed)
 
 ====================================================================================================
@@ -4275,6 +4785,32 @@ _(no textual difference)_
 1 | def count_pairs(nums, T):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -4353,6 +4889,32 @@ _(no textual difference)_
 14 | }
 15 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -4433,6 +4995,32 @@ _(no textual difference)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -4505,6 +5093,32 @@ _(no textual difference)_
 1 | def count_pairs(nums, T):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -4595,6 +5209,32 @@ _(no textual difference)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -4674,6 +5314,32 @@ _(no textual difference)_
 17 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -4746,6 +5412,32 @@ _(no textual difference)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -4811,6 +5503,32 @@ _(no textual difference)_
 1 | def count_pairs(nums, T):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -4880,6 +5598,32 @@ _(no textual difference)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -4946,6 +5690,32 @@ _(no textual difference)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 3.64/20  (4/22 tests passed)
 
 ====================================================================================================
@@ -5008,6 +5778,32 @@ _(no textual difference)_
 1 | def count_pairs(nums, T):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `0`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `0`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `0`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `0`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `0`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `0`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `0`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `0`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `0`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `0`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `0`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `0`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `0`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `0`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `0`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `0`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `0`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
 
 **Score:** 3.64/20  (4/22 tests passed)
 
@@ -5106,6 +5902,35 @@ _(no textual difference)_
 14 |                 return c
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `0`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+- **Possible issue:** Test cases involving negative numbers or a negative `T` fail.
+  **Suggestion:** Check that the comparison `nums[i] + nums[j] <= T` works for negative sums; don't assume values are non-negative.
+
 **Score:** 0.91/20  (1/22 tests passed)
 
 ====================================================================================================
@@ -5183,6 +6008,37 @@ _(no textual difference)_
  9 |         else:
 10 |             r-= 1
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Every case returned the wrong count.
+
+**Suggestion:** Count index pairs `(i, j)` with `i < j` where `nums[i] + nums[j] <= T`. A simple double loop `for i in range(n): for j in range(i+1, n)` is fine.
 
 **Score:** 0.0/20  (0/22 tests passed)
 
@@ -5284,6 +6140,37 @@ _(no textual difference)_
 17 |         return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Every case returned the wrong count.
+
+**Suggestion:** Count index pairs `(i, j)` with `i < j` where `nums[i] + nums[j] <= T`. A simple double loop `for i in range(n): for j in range(i+1, n)` is fine.
+
 **Score:** 0.0/20  (0/22 tests passed)
 
 ====================================================================================================
@@ -5381,6 +6268,37 @@ _(no textual difference)_
 16 |         return count
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[1, 2, 3, 4, 6], 6], expected `5`, got `None`
+- `spec_example_2`: input=[[0, 1, 2, 3], 3], expected `4`, got `None`
+- `all_pairs_valid`: input=[[1, 1, 1, 1], 10], expected `6`, got `None`
+- `no_pairs_valid`: input=[[10, 20, 30, 40], 5], expected `0`, got `None`
+- `two_elements_valid`: input=[[1, 2], 3], expected `1`, got `None`
+- `two_elements_invalid`: input=[[5, 6], 10], expected `0`, got `None`
+- `two_elements_equal_T`: input=[[4, 6], 10], expected `1`, got `None`
+- `negatives_sorted`: input=[[-5, -3, -1, 0, 2], 0], expected `8`, got `None`
+- `all_negatives`: input=[[-10, -5, -1], -5], expected `3`, got `None`
+- `duplicates`: input=[[2, 2, 2, 2], 4], expected `6`, got `None`
+- `duplicates_boundary`: input=[[1, 2, 2, 3], 4], expected `4`, got `None`
+- `zero_target_with_negatives`: input=[[-3, -2, -1, 4], 0], expected `3`, got `None`
+- `large_array_all_valid`: input=[[0, 0, 0, 0, 0, 0], 0], expected `15`, got `None`
+- `exact_target_hit`: input=[[1, 2, 3, 5], 7], expected `5`, got `None`
+- `T_smaller_than_smallest_sum`: input=[[5, 6, 7, 8], 10], expected `0`, got `None`
+- `single_valid_pair`: input=[[1, 5, 6, 7], 6], expected `1`, got `None`
+- `long_increasing`: input=[[1, 2, 3, 4, 5, 6, 7, 8], 9], expected `16`, got `None`
+- `all_same_value_large`: input=[[3, 3, 3, 3, 3], 6], expected `10`, got `None`
+- `all_same_value_T_less`: input=[[3, 3, 3, 3, 3], 5], expected `0`, got `None`
+- `mixed_neg_pos`: input=[[-4, -2, 0, 1, 3], 1], expected `8`, got `None`
+- `large_T`: input=[[1, 2, 3, 4, 5], 100], expected `10`, got `None`
+- `negative_T`: input=[[-5, -4, -3, -2, -1], -5], expected `8`, got `None`
+
+**Likely mistake:** Every case returned the wrong count.
+
+**Suggestion:** Count index pairs `(i, j)` with `i < j` where `nums[i] + nums[j] <= T`. A simple double loop `for i in range(n): for j in range(i+1, n)` is fine.
+
 **Score:** 0.0/20  (0/22 tests passed)
 
 ====================================================================================================
@@ -5473,5 +6391,11 @@ _(no textual difference)_
 14 | }
 15 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01150044_tnmedph5\Solution.java:3: error: '(' expected`
+
+**Suggestion:** The function couldn't be imported — check the signature is exactly `count_pairs(nums, T)` and that there's no stray top-level code causing an error.
 
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01150044_tnmedph5\Solution.java:3: error: '(' expected

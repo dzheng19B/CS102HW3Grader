@@ -88,6 +88,10 @@ _(no textual difference)_
 22 |        return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -198,6 +202,10 @@ _(no textual difference)_
 38 |     return max_sum if found_valid else 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -279,6 +287,10 @@ _(no textual difference)_
 23 | 
 24 |     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -375,6 +387,10 @@ _(no textual difference)_
 30 | 
 31 |     return max_sum if valid_window else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -495,6 +511,10 @@ _(no textual difference)_
 22 | 
 23 |     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -639,6 +659,10 @@ _(no textual difference)_
 28 |     return result
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -713,6 +737,10 @@ _(no textual difference)_
 20 |         return maxSum
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -774,6 +802,10 @@ _(no textual difference)_
 13 |             max_sum = max(max_sum, window_sum)
 14 |     return 0 if max_sum == float('-inf') else max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -875,6 +907,10 @@ _(no textual difference)_
 33 |     return res if valid else 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -960,6 +996,10 @@ _(no textual difference)_
 25 |             
 26 |     return max_ans if found else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -1049,6 +1089,10 @@ _(no textual difference)_
 27 |     return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -1128,6 +1172,10 @@ _(no textual difference)_
 22 |                 
 23 |     return max_sum if found_valid else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -1294,6 +1342,10 @@ _(no textual difference)_
 33 |     return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -1379,6 +1431,10 @@ _(no textual difference)_
 25 | 
 26 |     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -1481,6 +1537,10 @@ _(no textual difference)_
 33 |             
 34 |     return max_sum if found_valid else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -1610,6 +1670,10 @@ _(no textual difference)_
 47 |         
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -1708,6 +1772,10 @@ _(no textual difference)_
 32 |     return maxsum if maxsum != float('-inf') else 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -1790,6 +1858,10 @@ _(no textual difference)_
 24 |         return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -1871,6 +1943,10 @@ _(no textual difference)_
 23 | 
 24 |     return maxm if foundValid else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -1972,6 +2048,10 @@ _(no textual difference)_
 33 |     return max_sum if found_valid else 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -2062,6 +2142,10 @@ _(no textual difference)_
 28 |     return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
+
 **Score:** 20.0/20  (25/25 tests passed)
 
 ====================================================================================================
@@ -2139,6 +2223,10 @@ _(no textual difference)_
 21 |         return 0
 22 |     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -2233,6 +2321,10 @@ _(no textual difference)_
 29 |     
 30 |     return max_sum if max_sum != float('-inf') else 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -2393,6 +2485,15 @@ _(no textual difference)_
 55 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** First failing case `single_element_negative`: expected `-7`, got `0`.
+  **Suggestion:** Trace through this case by hand to spot where your logic diverges.
+
 **Score:** 19.2/20  (24/25 tests passed)
 
 ====================================================================================================
@@ -2507,6 +2608,17 @@ _(no textual difference)_
 22 |     return maxSum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -2599,6 +2711,17 @@ _(no textual difference)_
 29 |      
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -2678,6 +2801,17 @@ _(no textual difference)_
 22 | 
 23 |     return best
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
 
 **Score:** 17.6/20  (22/25 tests passed)
 
@@ -2839,6 +2973,17 @@ _(no textual difference)_
 46 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `-1`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `-1`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `-1`
+
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -2902,6 +3047,17 @@ _(no textual difference)_
 14 |     
 15 |     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
 
 **Score:** 17.6/20  (22/25 tests passed)
 
@@ -2987,6 +3143,19 @@ _(no textual difference)_
 25 |         
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** Window loop uses `range(len(nums) - k)` which skips the last window.
+  **Suggestion:** Use `range(len(nums) - k + 1)` so the final window starting at index `n-k` is included.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -3060,6 +3229,17 @@ _(no textual difference)_
 19 |             
 20 |             
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `2`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `-1`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `15`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
 
 **Score:** 17.6/20  (22/25 tests passed)
 
@@ -3194,6 +3374,17 @@ _(no textual difference)_
 33 |     return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -3271,6 +3462,18 @@ _(no textual difference)_
 21 |             totalSum = max(totalSum, tempSum)
 22 |     return totalSum;
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
 
 **Score:** 16.8/20  (21/25 tests passed)
 
@@ -3400,6 +3603,21 @@ _(no textual difference)_
 42 | } """
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 16.0/20  (20/25 tests passed)
 
 ====================================================================================================
@@ -3490,6 +3708,25 @@ _(no textual difference)_
 28 |        
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `6`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `9`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `4`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `8`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `3`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 12.8/20  (16/25 tests passed)
 
 ====================================================================================================
@@ -3545,6 +3782,35 @@ _(no textual difference)_
 6 |     return max
 7 |     
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `4`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `6`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `1`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `8`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `1`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `3`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `5`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `4`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+- **Possible issue:** Window loop uses `range(len(nums) - k)` which skips the last window.
+  **Suggestion:** Use `range(len(nums) - k + 1)` so the final window starting at index `n-k` is included.
 
 **Score:** 6.4/20  (8/25 tests passed)
 
@@ -3636,6 +3902,35 @@ _(no textual difference)_
 28 |         print(f"There are no valid windows of size {k}.")
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `6`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `9`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `2`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `-3`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 4.8/20  (6/25 tests passed)
 
 ====================================================================================================
@@ -3708,6 +4003,37 @@ _(no textual difference)_
 19 |     return cnt
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `4`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `3`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `3`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `1`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `1`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `1`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `4`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `4`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `3`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `3`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `3`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `4`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `3`
+- `single_element_array`: input=[[7], 1], expected `7`, got `1`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `1`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `1`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `4`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `5`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `2`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `3`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `2`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -3755,6 +4081,40 @@ _(no textual difference)_
 6 |     windows = (nums[i:i+k+1] for i in range(len(nums) - k))
 7 |     return max(map(ws, windows), default=float('-inf'))
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `11`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `14`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `9`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `13`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `-inf`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `-inf`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `-inf`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `2`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `-1`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `3`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `299`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `101`
+- `single_element_array`: input=[[7], 1], expected `7`, got `-inf`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `-inf`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `-inf`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `9`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `9`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `10`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `25`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** Initializes the running max to `-inf` and returns it directly, so when no valid window exists the function returns `-inf` (or a negative number) instead of `0`.
+  **Suggestion:** After the loop, if the max was never updated, return `0` instead of the sentinel.
+- **Possible issue:** Window loop uses `range(len(nums) - k)` which skips the last window.
+  **Suggestion:** Use `range(len(nums) - k + 1)` so the final window starting at index `n-k` is included.
 
 **Score:** 2.4/20  (3/25 tests passed)
 
@@ -3841,6 +4201,38 @@ _(no textual difference)_
 25 |           return max_sum
 26 |      return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 2.4/20  (3/25 tests passed)
 
@@ -3941,6 +4333,40 @@ _(no textual difference)_
 13 |             max_sum = max(max_sum, window_sum)
 14 |         return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)
 
@@ -4073,6 +4499,40 @@ _(no textual difference)_
 21 |             max = currentVal
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -4140,6 +4600,40 @@ _(no textual difference)_
 16 |       p1, p2 = p1 + 1, p2 + 1
 17 |    return res
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)
 
@@ -4209,6 +4703,10 @@ _(no diff file)_
 **Fixed input:**
 
 _(empty)_
+
+**Potential Mistake & Suggestion:**
+
+_Pseudocode submission — manual grading; no auto-analysis._
 
 **Score:** no results
 
@@ -4298,6 +4796,40 @@ _(no textual difference)_
 27 |     return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -4362,6 +4894,10 @@ _(no diff file)_
 **Fixed input:**
 
 _(empty)_
+
+**Potential Mistake & Suggestion:**
+
+_Pseudocode submission — manual grading; no auto-analysis._
 
 **Score:** no results
 
@@ -4491,6 +5027,10 @@ _(empty)_
 35 | }
 36 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+_All auto-graded tests passed (or no results to analyze)._
 
 **Score:** 20.0/20  (25/25 tests passed)
 
@@ -4711,6 +5251,16 @@ _(empty)_
 56 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `-1`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `15`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+
 **Score:** 18.4/20  (23/25 tests passed)
 
 ====================================================================================================
@@ -4823,6 +5373,17 @@ _(empty)_
 30 |     return maxSum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `'Window of length k could not be found'`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `'Window of length k could not be found'`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `'Window of length k could not be found'`
+
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 17.6/20  (22/25 tests passed)
 
 ====================================================================================================
@@ -4916,6 +5477,28 @@ _(empty)_
 25 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `6`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `-12`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `8`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `-3`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `-99`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `-3`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 8.8/20  (11/25 tests passed)
 
 ====================================================================================================
@@ -5006,6 +5589,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -5110,6 +5724,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -5219,6 +5864,37 @@ _(empty)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -5315,6 +5991,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -5431,6 +6138,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -5573,6 +6311,37 @@ _(empty)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -5681,6 +6450,37 @@ _(empty)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -5771,6 +6571,37 @@ _(empty)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -5847,6 +6678,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -5930,6 +6792,37 @@ _(empty)_
 2 |     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 3.2/20  (4/25 tests passed)
 
 ====================================================================================================
@@ -6010,6 +6903,37 @@ _(empty)_
 1 | def max_valid_window_sum(nums, k):
 2 |     return 0
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `0`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `0`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `0`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `0`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `0`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `0`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `0`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `0`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `0`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `0`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `0`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `0`
+- `single_element_array`: input=[[7], 1], expected `7`, got `0`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `0`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `0`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `0`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `0`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `0`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `0`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `0`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
 
 **Score:** 3.2/20  (4/25 tests passed)
 
@@ -6139,6 +7063,40 @@ _(empty)_
 26 |                                 return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `7`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `-12`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `-3`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `299`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `-3`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 0.8/20  (1/25 tests passed)
 
 ====================================================================================================
@@ -6262,6 +7220,40 @@ _(empty)_
 22 |                             return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `0`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+- **Possible issue:** Likely miscounts zero as negative in the per-window negative count.
+  **Suggestion:** Use a strict `x < 0` check when counting negatives in each window.
+- **Possible issue:** When no valid window exists, the function doesn't return `0` as required.
+  **Suggestion:** Track whether any valid window was seen; if none, `return 0`.
+
 **Score:** 0.8/20  (1/25 tests passed)
 
 ====================================================================================================
@@ -6384,6 +7376,40 @@ _(empty)_
 18 |                         pass
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -6491,6 +7517,40 @@ _(empty)_
 18 | 
 19 |                     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)
 
@@ -6614,6 +7674,40 @@ _(empty)_
 20 |                                     return 0
 21 |                                     return max_sum
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)
 
@@ -6771,6 +7865,40 @@ _(empty)_
 31 |                                     return 0
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `3`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `-3`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `-8`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `198`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `-4`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `-2`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -6874,6 +8002,12 @@ _(empty)_
 29 | }
 30 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01069659_6ebbque5\Solution.java:3: error: illegal start of expression`
+
+**Suggestion:** The function couldn't be imported — usually a syntax error or a missing/misnamed `max_valid_window_sum(nums, k)` function. Check the signature matches exactly.
 
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01069659_6ebbque5\Solution.java:3: error: illegal start of expr
 
@@ -6992,6 +8126,12 @@ _(empty)_
 33 | }
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01077893_jax08304\Solution.java:32: error: missing return statement`
+
+**Suggestion:** The function couldn't be imported — usually a syntax error or a missing/misnamed `max_valid_window_sum(nums, k)` function. Check the signature matches exactly.
+
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01077893_jax08304\Solution.java:32: error: missing return state
 
 ====================================================================================================
@@ -7104,6 +8244,12 @@ _(empty)_
 26 | }
 27 | }
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Load error:** `compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01126505_ro3968jl\Solution.java:14: error: cannot find symbol`
+
+**Suggestion:** The function couldn't be imported — usually a syntax error or a missing/misnamed `max_valid_window_sum(nums, k)` function. Check the signature matches exactly.
 
 **Score:** 0/20  (0/0 tests passed)  -- compile error: C:\Users\danz3\AppData\Local\Temp\jgrade_B01126505_ro3968jl\Solution.java:14: error: cannot find symbol
 
@@ -7269,6 +8415,40 @@ _(empty)_
 34 |         return max_sum
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -7329,6 +8509,40 @@ _(empty)_
 5 |             returnable = nums[i] + nums[i+1] + nums[i+2]
 6 |             return returnable
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)
 
@@ -7484,6 +8698,40 @@ _(empty)_
 31 |                                 return best
 ```
 
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
+
 **Score:** 0.0/20  (0/25 tests passed)
 
 ====================================================================================================
@@ -7594,5 +8842,39 @@ _(empty)_
 19 | 
 20 |             return ans        
 ```
+
+**Potential Mistake & Suggestion:**
+
+**Failed cases:**
+
+- `spec_example_1`: input=[[2, -1, 3, 4, -2, 6], 3], expected `8`, got `None`
+- `spec_example_2_no_valid`: input=[[-1, -10, 3, -4, -2, 6], 4], expected `0`, got `None`
+- `all_positive`: input=[[1, 2, 3, 4, 5], 3], expected `12`, got `None`
+- `all_positive_k1`: input=[[1, 2, 3, 4, 5], 1], expected `5`, got `None`
+- `single_negative_anywhere`: input=[[5, -2, 5, 5, 5], 3], expected `15`, got `None`
+- `two_negatives_adjacent_invalidate`: input=[[1, -1, -2, 3, 4], 3], expected `5`, got `None`
+- `k_equals_n_one_neg`: input=[[1, 2, -3, 4], 4], expected `4`, got `None`
+- `k_equals_n_two_negs`: input=[[1, -2, -3, 4], 4], expected `0`, got `None`
+- `k_equals_n_all_positive`: input=[[10, 20, 30], 3], expected `60`, got `None`
+- `k_1_picks_max_including_negative_if_all_neg`: input=[[-5, -3, -9, -1], 1], expected `-1`, got `None`
+- `k_1_picks_max`: input=[[-5, 7, -9, 2], 1], expected `7`, got `None`
+- `zeros_do_not_count_as_negative`: input=[[0, 0, 0, -1, 0], 3], expected `0`, got `None`
+- `window_all_have_one_negative`: input=[[0, 0, -1, 0, 0], 3], expected `-1`, got `None`
+- `negative_makes_sum_smaller_than_zero`: input=[[-100, 1, 1, 1], 2], expected `2`, got `None`
+- `large_positive_overwhelms`: input=[[100, -1, 100, 100, -1, 100], 3], expected `199`, got `None`
+- `window_with_neg_still_best`: input=[[1, 1, 1, -1, 100], 3], expected `100`, got `None`
+- `all_negatives_k2`: input=[[-1, -2, -3, -4], 2], expected `0`, got `None`
+- `single_element_array`: input=[[7], 1], expected `7`, got `None`
+- `single_element_negative`: input=[[-7], 1], expected `-7`, got `None`
+- `large_k_equals_len`: input=[[5, 5, -1, 5, 5], 5], expected `19`, got `None`
+- `duplicates_positive`: input=[[3, 3, 3, 3, 3], 2], expected `6`, got `None`
+- `alternating_neg_pos_k2`: input=[[-1, 5, -1, 5, -1, 5], 2], expected `4`, got `None`
+- `alternating_k3_invalid_half`: input=[[-1, 5, -1, 5, -1, 5], 3], expected `9`, got `None`
+- `boundary_tie_k3`: input=[[4, 4, -2, 4, 4], 3], expected `6`, got `None`
+- `negative_at_end_valid`: input=[[10, 10, 10, -5], 3], expected `30`, got `None`
+
+**Likely mistake:** Every test returned the wrong value — the core window logic is off.
+
+**Suggestion:** Re-read the spec: slide a window of size `k`, count how many elements are strictly negative (`x < 0`, not `<= 0`), keep windows with at most one negative, and track the maximum sum. Return `0` only when no valid window exists.
 
 **Score:** 0.0/20  (0/25 tests passed)

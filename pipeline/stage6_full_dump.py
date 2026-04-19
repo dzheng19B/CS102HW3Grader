@@ -10,9 +10,12 @@ Per student:
 import csv
 import difflib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "pipeline"))
+from hints import hint_for
 INPUTS = ROOT / "inputs"
 REPORTS = ROOT / "reports"
 REPORTS.mkdir(exist_ok=True)
@@ -215,10 +218,29 @@ def main():
         else:
             block.append("_(not in P3 manifest)_")
         block.append("")
-        block.append("## Score Summary")
-        block.append("")
         p1_lang = p1m[sid]["detected_language"] if sid in p1m else "python"
         p2_lang = p2m[sid]["detected_language"] if sid in p2m else "python"
+
+        block.append("## Potential Mistake & Suggestion")
+        block.append("")
+        h1 = hint_for("problem1", sid, p1_lang) if sid in p1m else ""
+        h2 = hint_for("problem2", sid, p2_lang) if sid in p2m else ""
+        if h1:
+            block.append("**Problem 1:**")
+            block.append("")
+            block.append(h1)
+            block.append("")
+        if h2:
+            block.append("**Problem 2:**")
+            block.append("")
+            block.append(h2)
+            block.append("")
+        if not h1 and not h2:
+            block.append("_All auto-graded tests passed (or no results to analyze)._")
+            block.append("")
+
+        block.append("## Score Summary")
+        block.append("")
         block.append(f"- **Problem 1:** {score_for('problem1', sid, p1_lang)}")
         block.append(f"- **Problem 2:** {score_for('problem2', sid, p2_lang)}")
         block.append(f"- **Problem 3:** manual grade (LeetCode POTD varies per student)")

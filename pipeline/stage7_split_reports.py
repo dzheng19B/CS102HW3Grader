@@ -6,9 +6,12 @@
 import csv
 import difflib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "pipeline"))
+from hints import hint_for
 INPUTS = ROOT / "inputs"
 REPORTS = ROOT / "reports"
 REPORTS.mkdir(exist_ok=True)
@@ -137,6 +140,11 @@ def build_problem_section(problem, sid, manifest_row):
         out.append("")
         out.append(code_block(repaired))
 
+    out.append("")
+    out.append("**Potential Mistake & Suggestion:**")
+    out.append("")
+    h = hint_for(problem, sid, lang)
+    out.append(h if h else "_All auto-graded tests passed (or no results to analyze)._")
     out.append("")
     out.append(f"**Score:** {format_score(problem, sid, lang)}")
     return out
