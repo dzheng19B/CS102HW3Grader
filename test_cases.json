@@ -1,0 +1,64 @@
+{
+  "guess_number": {
+    "function": "guessNumber",
+    "cases": [
+      {"name": "basic",        "args": {"n": 10, "pick": 6},   "expected": 6},
+      {"name": "single",       "args": {"n": 1, "pick": 1},    "expected": 1},
+      {"name": "pick_low",     "args": {"n": 2, "pick": 1},    "expected": 1},
+      {"name": "pick_high",    "args": {"n": 2, "pick": 2},    "expected": 2},
+      {"name": "large",        "args": {"n": 100, "pick": 73}, "expected": 73},
+      {"name": "mid_range",    "args": {"n": 50, "pick": 25},  "expected": 25},
+      {"name": "pick_is_n",    "args": {"n": 20, "pick": 20},  "expected": 20}
+    ]
+  },
+  "longest_substring": {
+    "function": "lengthOfLongestSubstring",
+    "cases": [
+      {"name": "example1",    "args": ["abcabcbb"],  "expected": 3},
+      {"name": "all_same",    "args": ["bbbbb"],      "expected": 1},
+      {"name": "example3",    "args": ["pwwkew"],     "expected": 3},
+      {"name": "empty",       "args": [""],           "expected": 0},
+      {"name": "single_char", "args": ["a"],          "expected": 1},
+      {"name": "all_unique",  "args": ["abcdef"],     "expected": 6},
+      {"name": "spaces",      "args": ["a b c a"],    "expected": 3},
+      {"name": "end_longest", "args": ["aab"],        "expected": 2}
+    ]
+  },
+  "contains_nearby_duplicate": {
+    "function": "containsNearbyDuplicate",
+    "cases": [
+      {"name": "true_basic",     "args": [[1,2,3,1], 3],       "expected": true},
+      {"name": "true_adjacent",  "args": [[1,0,1,1], 1],       "expected": true},
+      {"name": "false_too_far",  "args": [[1,2,3,1,2,3], 2],   "expected": false},
+      {"name": "false_k_zero",   "args": [[1,2,1], 0],         "expected": false},
+      {"name": "single_element", "args": [[1], 1],             "expected": false},
+      {"name": "no_dups",        "args": [[1,2,3,4,5], 3],     "expected": false},
+      {"name": "true_exact_k",   "args": [[1,2,1], 2],         "expected": true},
+      {"name": "empty",          "args": [[], 0],              "expected": false}
+    ]
+  },
+  "merge_two_sorted_lists": {
+    "function": "mergeTwoLists",
+    "cases": [
+      {"name": "example1",     "args": [[1,2,4], [1,3,4]],     "expected": [1,1,2,3,4,4]},
+      {"name": "both_empty",   "args": [[], []],               "expected": []},
+      {"name": "one_empty",    "args": [[], [0]],              "expected": [0]},
+      {"name": "other_empty",  "args": [[1], []],              "expected": [1]},
+      {"name": "interleave",   "args": [[1,3,5], [2,4,6]],     "expected": [1,2,3,4,5,6]},
+      {"name": "all_same",     "args": [[1,1], [1,1]],         "expected": [1,1,1,1]},
+      {"name": "single_each",  "args": [[1], [2]],             "expected": [1,2]}
+    ]
+  },
+  "eval_rpn": {
+    "function": "evalRPN",
+    "cases": [
+      {"name": "example1",     "args": [["2","1","+","3","*"]],                                         "expected": 9},
+      {"name": "example2",     "args": [["4","13","5","/","+"]],                                        "expected": 6},
+      {"name": "example3",     "args": [["10","6","9","3","+","-11","*","/","*","17","+","5","+"]],      "expected": 22},
+      {"name": "add_only",     "args": [["3","4","+"]],                                                 "expected": 7},
+      {"name": "single",       "args": [["18"]],                                                        "expected": 18},
+      {"name": "subtract",     "args": [["5","3","-"]],                                                 "expected": 2},
+      {"name": "neg_divide",   "args": [["7","2","/"]],                                                 "expected": 3}
+    ]
+  }
+}
