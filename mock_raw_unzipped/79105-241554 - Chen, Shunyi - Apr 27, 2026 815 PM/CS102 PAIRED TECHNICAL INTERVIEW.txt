@@ -1,0 +1,56 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Shunyi Chen
+Kartik Wahlin
+
+Interviewer Form
+
+evaluate reverse polish notation (Just the Name of the Problem is fine)
+
+1) Problem Understanding
+4
+double checked with me if he missed anything regarding question, also explained question in own words
+
+2) Communication & Collaboration
+4
+shows me he knows his plan. explains throughly. told me that he would need to pop and append to another stack, explained each section of code, like telling me why he needed a if else statement
+
+3) Implementation & Technical Depth
+4
+solution if very efficient and very optimized. he double checked with me. he asked me about constraints, checked if it was the same on my paper, and realized about an empty list being an edge case and asked me to double check that as well.
+
+4) Team Fit & Working Style
+4
+yes i would hire him because hes very open to feedback and suggestions, like i suggested that he couldve not had an else statement and he was like yeah i see that
+
+Final Evaluation
+16/16
+Final Decision
+i would definitely hire this guy. hes veyr open to feedback, and takes time before and after to explain his thinking and strategy as well. i think he would work very well in a team setting
+Candidate Form
+
+[Insert Submitted Code] - my question is longest substring without repeating characters
+
+def lengthOfLongestSubstring(s: str) -> int
+	dict = {}
+	right, left = 0, 0
+	max = 0
+	while right < len(s):
+		if not s[right] in dict:
+			dict[s[right]] = 0
+			right+=1
+			temp = right - left
+			if temp > max:
+				max = temp
+		else: 			left+=1
+			del dict[s[left]]
+
+	return max

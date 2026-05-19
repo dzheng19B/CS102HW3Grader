@@ -1,0 +1,12 @@
+def containsNearbyDuplicate(nums: List[int], k: in) -> bool:
+    dict = {}
+
+    for key, value in enumerate(nums):
+        if value in dict:
+            if abs(key - dict[value]) <= k:
+                return True
+            dict[value] = key
+        else:
+            dict[value] = key
+    
+    return False

@@ -1,0 +1,24 @@
+public int lengthOfLongestSubstring(String s){
+    String final = 0;
+    int maxLength = 0;
+    HashSet <String> hashSet = new HashSet<>();
+    for(int i = 0; i< s.length; i++){
+        hashSet.add(s.charAt(i);
+        while(hashSet.contains(s.charAt(i)){
+            if(final.length > maxLength){
+                maxLength = final.Length;
+            }
+            hashSet.remove();
+        }
+        
+    }
+    return final.length;
+}
+
+//I do not think that I implimented this properly at all
+//However my thought process was this:
+//Add letters to hasset until I encounter a duplicates
+//then while the hashSet isn't empty, remove the letters from the 
+//hashSet and add them to a string, and save that strings length
+//then when the while loop is done clear out the string and repeat the process
+//until the string is exhausted

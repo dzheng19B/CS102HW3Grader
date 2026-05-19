@@ -1,0 +1,37 @@
+def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+    #Initialize two nodes to step through list 1 and list 2
+    cur1 = list1
+    cur2 = list2
+
+
+    #loop through list 1
+    i = 0
+    while cur1:
+        i += 1 
+
+        #Check to see if we have completed list2 or list1 is larger then just insert the next value of list1
+        if (cur2 == None) or (cur1.next.val < cur2.val):
+
+            #if current value is first then set the head
+            if i == 1:
+                head = cur1
+            cur1 = cur1.next
+
+        #insert next value of list2 into list1
+        else:
+            temp = cur2
+            cur2.next = cur1.next
+            cur1.next = cur2
+
+            #if current value is first then set the head
+            if i == 1:
+                head = cur1
+
+            cur2 = temp.next
+            cur1 = cur1.next
+    
+    #if list1 ends before list2 then add list2 to the end
+    if (cur2 != None):
+        cur1.next = cur2
+
+    return head

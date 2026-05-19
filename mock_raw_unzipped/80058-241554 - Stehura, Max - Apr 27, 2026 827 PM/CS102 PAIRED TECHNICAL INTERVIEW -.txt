@@ -1,0 +1,65 @@
+CS102 PAIRED TECHNICAL INTERVIEW - Max Stehura
+
+Max Stehura
+
+Ryan Martin
+
+Interviewer Form
+
+Longest Substring Without Repeating Characters
+
+1) Problem Understanding - 4/4
+
+Candidate reread the question, understood the example cases, and overall what the question was asking for. 
+
+
+2) Communication & Collaboration - 4/4
+
+Candidate wrote pseudocode prior to implementing code, making note of what variables must be initialized and structure of the algorithm. Questions were asked to clarify constraints and how to properly keep track of the sub-string during the while loop and max sub-string.
+
+3) Implementation and Technical Depth - 4/4
+
+Solution perfectly followed what was necessary with only one or no errors made, and mentioned the time and space complexity, time being O(n) and space being O(n) considering the inclusion of a hashset and the associated operations being O(1) to add them or remove elements. They also walked through the already given test cases using their own algorithm, drawing out what would happen from each line.
+
+4) Team Fit and Working Style - 4/4
+
+I would definitely want this person on my team based on their performance, for they were able to quickly and efficiently identify and begin mapping out their solution within a few minutes, and at no point did they express any undesirable responses.
+
+Final Evaluation: 16/16
+
+Final Decision: 
+
+Key strengths included good knowledge of python syntax, ability to correctly identify relevant data structures and how to apply them in the problem. Key weaknesses may be few errors in syntax but overall knows the fundamental concepts to solve the problems. I made my decision to recommend them as a strong hire due to their proficient and satisfactory technical skills and communication abilities.
+
+Candidate Form
+
+Evaluate Reverse Polish Notation
+
+def evalRPN(tokens: List[str]) -> int:
+	stack = []
+	for i in tokens:
+		if i == "+":
+			x1 = stack.pop()
+			x2 = stack.pop()
+			y = x1 + x2
+			stack.append(y)
+		elif i == "-":
+			x1 = stack.pop()
+			x2 = stack.pop()
+			y = x2 - x1
+			stack.append(y)
+		elif i == "/":
+			x1 = stack.pop()
+			x2 = stack.pop()
+			y = x2 / x1
+			stack.append(y)
+		elif i == "*":
+			x1 = stack.pop()
+			x2 = stack.pop()
+			y = x1 * x2
+			stack.append(y)
+		else:
+			stack.append(i)
+	return stack.pop()
+
+

@@ -1,3 +1,0 @@
-I build the result string step by step. For every 'T', I force that part of the string to match str2. If there's a conflict, I return empty. For every 'F', I check if it accidentally matches str2, and if it does, I change one character (that isn't fixed) to break the match. If I can't change anything, then no valid string exists.
-
-The solution runs in O(n × m) time because for each position in str1, I may compare or update up to m characters from str2.

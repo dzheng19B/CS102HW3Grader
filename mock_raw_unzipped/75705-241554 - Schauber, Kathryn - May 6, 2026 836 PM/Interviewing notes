@@ -1,0 +1,19 @@
+Candidate Name: Maddie Broderick
+Interviewer Name: 
+Date: 5/6/26
+Problem Given: Contains Duplicate Interviewer
+
+Problem Understanding: Partial understanding, some clarification needed
+Notes: took a long time to realize i and j were indices
+
+Communication and Collaberation: Very Unclear, stuggled with feedback
+Notes: when I asked her to explain why she was doing what she was doing, she would say she didn't know, when she finally did tho, she realized what she was doing wrong, and fixed Interviewer
+
+Implementation and Technical Depth: Mostly correct, reasonable testing, correct complexity analysis
+Notes: correct code. did not trace through super throughly. Correct time complexity analysis
+
+Team fit and working style: Friction-heavy, resistant to feedback or collaboration
+Notes: kept trying to hint towards hashmap, eventually she figured out it was a hashmap, but was resistant to switching to hashmap and sticking to a two pointer approach. did eventually switch to hashmap
+
+Hiring Recommendation: No hire
+Key strenghts was once she switched to hashmap she completed the solution quickly. Key weakness was communication and collaberation, was very resistant. I made my decision because of the communication.

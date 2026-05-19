@@ -1,0 +1,54 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+[Santiago Zuluaga]
+
+[Jason Seng]
+
+Interviewer Form
+
+[Reverse polish notation ] (Just the Name of the Problem is fine)
+
+1) Problem Understanding 2/4
+IT was a difficult problem so it took some time to understand what was needed and needed hints regarding polish 
+
+2) Communication & Collaboration
+Communicated effectively thoughts and ideas regarding the problem and how it could be approached also asked questions regarding uncertainties 
+3) Implementation & Technical Depth
+Needed some clarifications regarding how to use the data structure and what was exactly happening 
+4) Team Fit & Working Style
+The person was enthusiastic and motivated to express their knowledge and learn from the process. 
+Final Evaluation
+
+Final Decision
+
+Candidate Form
+
+[Python coding
+
+	def guessNumber(n: int):
+	
+	start, end = 1, n
+
+
+	while start <= end:
+		
+		pick = start + (end-start) // 2 
+		
+		if guess(pick) == 1:
+			start = pick + 1
+
+		elif guess(pick) == -1:
+			end = pick - 1 
+
+		else
+			return pick; 
+ 
+]

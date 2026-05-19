@@ -1,0 +1,21 @@
+def guess (n:int) ->int:
+	if (n==1):
+		return 1
+	left =1
+	right = n
+	middlePointer = (left+right)//2
+	while (guess(middlePointer) !=0 and left<=right):
+		if (guess(middlePointer) ==-1): #if our guess is too high we move the right pointer
+			right = middlePointer -1
+		if (guess(middlePointer) == 1): #if our guess is too high we move the left pointer
+			left = middlePointer +1
+		middlePointer = (left+right)//2
+	return middlePointer
+	
+	
+	#1,2 pick=2
+#	left =2
+#	right = 2
+	#middlePointer = 2
+	
+	

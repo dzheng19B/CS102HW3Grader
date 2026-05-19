@@ -1,0 +1,50 @@
+Vikram Minhas
+
+Sean Carhart
+
+Interviewer Form
+
+Evaluate Reverse Polish notation
+
+1) Problem Understanding
+4
+
+2) Communication & Collaboration
+4
+- clearly explained how each of the examples worked and how it should implemented 
+
+3) Implementation & Technical Depth
+4
+- explained each part of their code as they wrote it
+
+4) Team Fit & Working Style
+4
+- knew what they were doing and confident, would love to have on team
+
+Final Evaluation
+16/16
+Strong hire
+
+Final Decision
+Understood the assignment right away, explained what the problem was asking clearly to me. Made sure to go through how each of the examples given to them worked and why the output was what it was. Wrote clear code with proper syntax and very clear on why he wrote what he wrote. 
+
+Candidate Form
+PROBLEM: Merge Two Sorted Lists
+Time complexity of my problem: O(n+m)
+My solution goes through each of the lists completely and since the lists aren't identical, we have list1 of length n and list2 of length m. We compare each of the values and then go through until no more left to search and then return the head. We choose the head of the list that has a bigger value and then we move the pointer and keep repeating until the comparison is done. 
+
+
+def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> optional[ListNode]:
+	x = listNode()
+	curr = x
+
+	while list1 and list2 != null:
+		if list1.val <= list2.val:
+			curr.next = list1
+			list1 = list1.next
+		elif list1.val >= list2.val:
+			curr.next = list2
+			list2 = list2.next
+		curr = curr.next
+
+	return x

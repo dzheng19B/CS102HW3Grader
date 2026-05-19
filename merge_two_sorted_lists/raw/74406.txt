@@ -1,0 +1,60 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+Varun Kumar Karamchandani
+
+Kushagra Singh
+
+Interviewer Form
+Evaluate Reverse Polish Notation
+
+1. Problem Understanding: Identified stack as correct structure immediately 
+Recognized operand ordering issue for - and / without hints
+rating: 4
+
+2.Communication & Collaboration: Explained approach clearly before writing code
+Minimal guidance needed throughout
+rating: 3
+
+3.Implementation & Technical Depth: Handled all 4 operators correctly including division truncation
+Stated O(n) time and O(n) space accurately
+rating: 4
+
+4.Team Fit & Working Style: Calm and composed under pressure
+Organized thought process with no major missteps
+rating: 4
+
+Final Evaluation: Clean correct solution with strong communication
+
+Final Decision: Hire
+
+Candidate Form
+
+merge 2 list
+
+python
+
+class ListNode:
+    def __init__(self, val=0):
+        self.val = val
+        self.next = None
+
+def mergeTwoLists(list1, list2):
+    dummy = ListNode(0)
+    current = dummy
+    
+    while list1 and list2:
+        if list1.val <= list2.val:
+            current.next = list1
+            list1 = list1.next
+        else:
+            current.next = list2
+            list2 = list2.next
+        current = current.next
+    
+    # attach whatever is left
+    if list1:
+        current.next = list1
+    else:
+        current.next = list2
+    
+    return dummy.next

@@ -1,0 +1,23 @@
+Candidate Form
+
+# I would achieve this problem by doing a dynamic sliding window solution
+# Set and left and right integer
+# Go through the string and update a variable with the longest substring length being equal to the window size
+# If a letter of the substring is repeated the window would shift to the right
+# Time complexity of O(n)
+
+def lengthOfLongestSubstring(s: str) -> int: 
+left = 0
+longestLength = 0
+substringSet = set()
+for right in range(len(s)): 
+	while s[right] in substringSet 
+		substringSet.remove(s[left])
+		left += 1
+	substringSet.add(s[right])
+
+	if (right – left + 1 > longestLength):
+		longestLength = right – left + 1
+
+return longestLength
+

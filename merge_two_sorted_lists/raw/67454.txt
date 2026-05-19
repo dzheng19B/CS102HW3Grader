@@ -1,0 +1,51 @@
+Python Mock-Interview
+
+
+
+def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode] -> Optional[ListNode]:
+
+	
+	#Compare the two linked lists -- starting with head
+
+	#insert based on smaller to larger value 
+
+	#Linked List will vary in size --> Nodes already set up
+
+
+	#Special Cases: Both can be empty
+
+	current1 = new_node()
+	current1 = list1   #don't lose track of the head
+
+	current2 = new_node()
+	current2 = list2  #don't lose track of the second head 
+
+	#Third List (result linked list)
+
+	current3 = new_node()
+	current3 = list3 #new list (currently empty)
+
+	
+
+	while (current1 != NULL and current2 != NULL){   #while both conditions are true 
+		
+		if current1.val > current2.val:  #current1 greater than current2
+			
+		 current2.next = current1
+		 current3.next = current2
+		#add to list3  
+
+		elif current2.val < current1.val:  #current2 less than current1
+		  current1.next = current2
+		  current3.next = current1
+                  #add to list3 
+
+
+	return list3
+		 
+
+
+
+
+
+	

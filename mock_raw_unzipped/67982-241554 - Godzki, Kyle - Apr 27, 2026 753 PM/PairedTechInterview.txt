@@ -1,0 +1,20 @@
+#Kyle Godzki
+#Ethan Wong
+
+# Stack -> LIFO
+
+
+def evalRPN(tokens: List[str]) -> int:
+	stack = []
+	for token in tokens: O(N) # This is the for loop
+		if token in '+-*/':
+			a, b = stack.pop(), stack.pop() #O(1) # Pops last two entries in stack
+			if token == '+': stack.append(a + b) # O(1) # Adds last two popped entries, answer entered
+			if token == '-': stack.append(a - b) 
+ 			if token == '*': stack.append(a * b)
+			if token == '/': stack.append(a / b)
+		else:
+			stack.append(int(token))
+	return stack[0] # return answer
+
+Final complexity was O(N) since only one for loop and everything else just for loops. Space complexity was O((N/2) + 1) with our added stack.

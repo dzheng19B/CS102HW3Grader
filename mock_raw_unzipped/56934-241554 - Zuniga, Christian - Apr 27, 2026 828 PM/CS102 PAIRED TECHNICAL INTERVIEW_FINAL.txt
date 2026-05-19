@@ -1,0 +1,32 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit. The interviewer form & candidate reflection should be submitted on paper. The candidate code should be submitted with the format below:
+
+We encourage you to comment your code if you'd like!
+
+Christian Zuniga
+
+Kevin Yang
+
+Candidate Form
+
+class Solution:
+
+    def lengthofLongestSubstring(s:str) -> int:
+        counter = 0
+        visited = {}
+
+        for x in s:
+            #Base Case
+            if (len(s) < 0 || len(s) > 50000){
+                        return 0
+            }
+
+            if(s{x] != visited):
+                counter = counter + 1
+                s[x] = visited #Add visited string to the dict.
+
+        return counter

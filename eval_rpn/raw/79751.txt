@@ -1,0 +1,72 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Naomi Sellam
+
+Stephania Calin
+
+Interviewer Form
+
+Merge Two Sorted Lists
+
+1) Problem Understanding
+4 
+She clearly understood the problem and confidently asked me questions about edge cases, exceptions, and constraints. She said there are already two sorted lists and understood that she needs to merge them into one sorted linked list, not by creating new nodes but by re-splicing the existing nodes together. She also asked about returning the new list or modifying it in place. 
+
+2) Communication & Collaboration
+3
+She was very confident going into coding that she didn't fully explain her thought process before beginning to code, but she did get to it as she coded. She was able to recognize that she needs to use the two pointer technique where there would be one pointer per list and to advance the smaller one. She also recognized that there needs to be a dummy head node to avoid messy edge cases. 
+
+3) Implementation & Technical Depth
+4
+Her solution was correct. She stated her approach was to create a dummy node as a starting anchor, keep a current pointer on the dummy, and while both lists have nodes, to compare each list and attach the smaller node to current.next. She explained more to her approach which demonstrated proficiency and understanding of the problem and she traced through example 1 quickly to verify how to return dummy.next. Her implementation ran through all test cases effectively and had good optimization.
+
+4) Team Fit & Working Style
+4
+I would hire this person to my team because she was very communicative, nice, and good at the leetcode problem. She overall was a pleasure to interview and I think she would make a great addition to any team. 
+
+Final Evaluation
+Strong Hire
+
+Final Decision
+
+Candidate Form
+
+[Insert Submitted Code]
+
+def evalRPN(tokens: List[str]) -> int:
+    stack = []
+    
+    for token in tokens:
+        if token in {'+', '-', '*', '/'}:
+            
+            b = stack.pop()  
+            a = stack.pop()  
+            
+            if token == '+':
+                stack.append(a + b)
+            elif token == '-':
+                stack.append(a - b)
+            elif token == '*':
+                stack.append(a * b)
+            elif token == '/':
+                stack.append(int(a / b))  
+        else:
+            stack.append(int(token))
+    
+    return stack[0]
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+def mergeTwoLists(list1, list2):
+    dummy = ListNode()
+
+    curr = dummy
+    while list1 or list2:
+        if list1.val <= list2.val:
+            curr.next = list1
+            list1 = list1.next
+        else:
+            curr.next = list2
+            list2 = list2.next
+
+    if list1:
+        curr.next = list1
+    elif list2:
+        curr.next = list2
+
+    return dummy.next
+
+#Iterates through both list nodes until one of them is empty, adding the lesser nodes to the new head node. If one is empty, just  #append the non-empty list onto the end of the new head.

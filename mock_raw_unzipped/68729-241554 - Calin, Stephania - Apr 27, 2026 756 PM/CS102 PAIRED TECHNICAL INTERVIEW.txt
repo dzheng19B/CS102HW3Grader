@@ -1,0 +1,61 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Stephania Calin
+
+Naomi Sellam
+
+Interviewer Form
+
+[Problem Given] Reverse Polish Notation
+
+1) Problem Understanding
+3
+Notes: While I did have to push Naomi in the right direction, she still understood it clearly with the help of examples. She understood the concept and the goal that was to be achieved by the end of the written code. She asked questions about the edge cases and any exceptions to ensure her code would be prepared for any input. I told her to be weary of the operators that don't work with the code.
+
+2) Communication & Collaboration
+4
+Notes: Before she began coding, I asked her to walk me through what her thinking was. I found we both worked effectively where she would ask a question and I would give her an answer without giving away the whole problem and she immediately understood and communicated that well. While walking me through her thinking process, she attempted to match a pattern to this problem at first noticing that the operators act on the two most recently seen numbers which made her think of a stack with a LIFO queue. 
+
+3) Implementation & Technical Depth
+4
+Notes: Her approach is to iterate through each token and if it's a number, to push it onto the stack. Or if it's an operator, to pop the top two values, apply the operation and push the result back. She demonstrated well versed leet code knowledge and concluded that the end the stack has only one value. She implemented her solution very well and it was clean and ran through all test cases successfully with strong optimization. She also traced through her code to make sure it worked and explained it to me line by line. She stated that the time complexity is O(N) because "one pass through the tokens, each push/pop is O(1)." The space complexity she stated was O(N) in the worst case. 
+
+4) Team Fit & Working Style
+4
+Notes:
+Based on this interview, I would want this person on my team because she demonstrated a calm and humble personality while also crushing the leet code and demonstrating her proficiency in it. She also seems to be a reliable candidate, showing up to the interview on time and quickly coding her program correctly too. 
+
+Final Evaluation
+Strong Hire 15/16
+
+Final Decision
+During the interview, Naomi demonstrated strong proficiency in rest of the answer on the paper.
+
+Candidate Form
+
+def mergeTwoLists(list1, list2): 
+# changed the function parameters because its easier for me to follow
+	dummy = ListNode(0)
+	current = dummy
+	
+	while list1 and list2:
+		if list1.val <= list2.val:
+			current.next = list1
+			list1 = list1.next
+		else:
+			current.next = list2
+			list2 = list2.next
+		current = current.next
+	#now ill attach remaining list
+	current.next = list1 if list1 else list2
+	
+	return dummy.next
+	

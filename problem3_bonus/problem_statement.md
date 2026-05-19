@@ -1,3 +1,0 @@
-Bonus
-Complete the problem of the day on https://leetcode.com/problemset/ and paste your solution along with an image of your successful submission. Then, explain in a few sentences the time complexity of your solution and how the solution solves the problem (the "E" step in UMPIRE). 
-Note: While the problem of the day rotates daily it is often easier earlier in the month and harder later in the month. 

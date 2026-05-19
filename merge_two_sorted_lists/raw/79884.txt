@@ -1,0 +1,68 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Zhi Xiong Lu
+
+Park RPK
+
+Interviewer Form
+
+Merge Two Sorted Lists
+
+1) Problem Understanding
+
+Clarified what the program should do and what output should be. Asked clarifying question on it about number of guesses being returned. Demonstrated understanding of problems and restated in own words.
+
+2) Communication & Collaboration
+
+Offered an initial brute force solution, where value from 1-100 is checked. They clarified time complexity was o(n) time,w when asked if there was a more effective/efficient method they offered the binary search where the complexity is olog(n). Interviewee was able to explain both 
+
+3) Implementation & Technical Depth
+
+Startec clariying methods explained basic binary algorithm, and talked about what the code was doing as he programed solution walked through his code with example value while coding. Required a bit of prompting about position requirement and expect as program was running -1,0,1. Note theis was the most efficient method and reiterated olog(n) time complexity
+
+4) Team Fit & Working Style
+
+Candidate was receptive and integrated feedback. Persistent in trying and understanding cooperatively despite initial blip in communication at the start.
+
+Final Evaluation
+
+15/16
+
+Final Decision
+
+Strong hire
+
+Candidate Form
+
+The problem that was asked of me was 
+
+Merge Two Sorted Lists
+
+def mergeTwoLists(self, list1, list2):
+        list3 = ListNode(0)
+        current = list3
+
+        while list1 and list2:
+            
+            if list1.val <= list2.val:
+                current.next = list1
+                list1 = list1.next
+                
+            else:
+                current.next = list2
+                list2 = list2.next
+                
+            current = current.next
+        if list1:
+            current.next = list1
+        if list2:
+            current.next = list2
+        return list3.next

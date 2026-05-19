@@ -1,0 +1,62 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Ashley Carozza
+
+Clare Calandra
+
+Interviewer Form
+
+Longest Substring Without Repeating Characters
+
+1) Problem Understanding: 4/4 - Clare took a couple minutes to fully digest the problem and work through it in her head. Once she was ready, she clarified with me the goal of the problem. She didn't need any additional information from me about the problem to get started or while coding!
+
+2) Communication & Collaboration: 4/4 - Clare explained her code with a high level of intelligence. It was clear she knew what she was talking about and there seemed to be no gaps in her understanding. She responded well to feedback, too. She was able to answer every question I had and clarified it when needed.
+
+3) Implementation & Technical Depth: 4/4 - Clare's code passed all the test cases on the doc and her code was well-commented as well. She was also able to explain and complete this problem with good time optimization. She obviously showed she knows how to apply hash sets.
+
+4) Team Fit & Working Style: 4/4 - Clare would work great on a team based on how she performed during this interview. Even under pressure, she maintained her calmness and elegance. Even when she attempted a different approach to the problem and it wasn't optimized, she was able to reflect, go back, and revise. This is a highly valuable quality of any team member as reflection allows for progress. 
+
+Final Evaluation: 16/16
+
+Final Decision: I would hire Clare. Her ability to talk through her code and train of thought was incredible. Her words were articulate and I never felt lost. Her code was also optimized and obviously displayed a high level of understand a hash set. She had a good amount of confidence as well, but not cocky. Even though she had a different and less optimized approach at the start and needed a slight hint, she was able to recover successfully and ended up with some great code! She would make a great addition to the team, especially because of her can-do attitude. I would 100% hire her!
+
+Candidate Form
+
+def evalRPN(tokens: List[str]) -> int:
+    #create empty stack
+    stack = []
+    #set of the operations
+    operations = {"+", "*", "-", "/"}
+
+    for token in tokens:
+        if token in operations:
+            #second operand (top of stack)
+            b = stack.pop()
+            #first operand
+            a = stack.pop()
+            if token == "+":
+                stack.append(a + b)
+            elif token == "-":
+                stack.append(a - b)
+            elif token == "*":
+                stack.append(a * b)
+            elif token == "/":
+                #truncate toward 0, not floor
+                stack.append(int(a / b))
+        else:
+            #convert string to int and push onto stack
+            stack.append(int(token))
+    #final result is only element left
+    return stack[0]
+            
+#Approach: I used a stack to process the token from left to right. I push numbers onto the stack, and when an operator is hit, I pop the two operands, apply the operation, 
+#and then push the result. The final value left on the stack is the answer.
+#Time complexity: The solution is O(n) where n is the number of tokens, since every token is visited exactly once and all stack operations (push/pop) are O(1).m 

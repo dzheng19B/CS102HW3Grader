@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww29440\viewh14580\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Candidate: Carson Carey\
+\
+Interviewer: Danila Safronov\
+\
+Candidate Form\
+\
+//\
+\
+public int lengthOfLongestSubstring(String s) \{\
+	HashSet<Character> seen = new HashSet<Character>();\
+	int maxLength = 0;\
+	int l = 0;\
+\
+	for(int r = 0; r<s.length(); r++) \{\
+		while(seen.contains(s.charAt(r))) \{\
+			seen.remove(s.charAt(l));\
+			l++;\
+		\}\
+		seen.add(s.charAt(r));\
+\
+		if(r-l+1>maxLength) \{\
+			maxLength = r-l+1;\
+		\}\
+	\}\
+	return maxLength;\
+\}\
+		\
+		}

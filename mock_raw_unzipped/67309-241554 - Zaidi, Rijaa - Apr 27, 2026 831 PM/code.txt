@@ -1,0 +1,24 @@
+
+Leetcode Solution:
+Rijaa Zaidi
+Tianna Balkam
+
+def guessNumber(n: int) -> int:
+//n is input, we want pick
+//binary search
+
+l,r = 1, n
+
+while l <= r:
+	mid = (l + r) // 2
+	if guess(mid) == 0:
+		return mid
+	elif guess(mid) == 1:
+		l = mid + 1
+	else:
+	     r = mid - 1
+return 0
+
+
+Write-up:
+This solution uses binary search to cut down on the search range and find the solution in O(logn) time. by finding the middle value between l and r and adjusting each pointer based on the guess function output (increasing l if mid was less than pick and decreasing r if mid was greater than pick), the correct picked value will eventually found.

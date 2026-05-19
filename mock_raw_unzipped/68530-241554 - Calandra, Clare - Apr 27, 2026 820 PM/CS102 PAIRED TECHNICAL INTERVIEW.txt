@@ -1,0 +1,65 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+[Clare Calandra]
+
+[Ashley Carozza]
+
+Interviewer Form
+
+[Evaluate Reverse Polish Notation] (Just the Name of the Problem is fine)
+
+1) Problem Understanding
+4 - Fully understood, restated clearly 
+Comments: 
+- exemplified full understanding of the problem 
+- knew which data structure to use and the importance of the order of operands 
+
+2) Communication & Collaboration
+4 - Very clear, structured, highly collaborative & adaptive 
+Comments: 
+- asked questions about edge cases & specifics on inputs 
+- asked to clarify division by zero in this scenario 
+- communicated thought process behind data structure chosen(stack) 
+
+3) Implementation & Technical Depth
+4 - Clean, correct, well-tested solution with strong optimization and tradeoff discussion 
+Comments: 
+- used all examples to test code & they passed 
+- also ran through an example to explain in words how it worked 
+
+4) Team Fit & Working Style
+4 - Strong team asset; calm under uncertainty, humble, ownership mindset 
+Comments: 
+- positive attitude 
+- very receptive to comments & hints/help 
+- did not panic, was humble, and handled the problem in a calm manner 
+
+Final Evaluation
+16/16 - Strong hire recommendation 
+
+Final Decision
+    Ashley is an overall exceptional candidate after acing this technical interview. Not only did she show a deep understanding of the problem at hand, but also portrayed a humble, calm, and ownership mindset. She asked all the right questions when it came to edge cases and certain limitations on the question (input only having +, -, *, /, and ints and division by zero clarification). Additionally, she communicated her thought process well throughout the entire interview. 
+
+Candidate Form
+
+def lengthOfLongestSubstring(s: str) -> int:
+    set_of_chars = set() #create a HashSet to track chars (make sure no repeats)
+    left = 0 #track elements (2-pointer method start left pointer at index 0)
+    length = 0 #keep track of return value (start at 0)
+    for i in range(len(s)): #iterate through the elements(characters) of the given string s 
+        while s[i] in set_of_chars: # if the element is in the set, execute the following
+            set_of_chars.remove(s[left]) #remove the character from the set 
+            left += 1 #increment left pointer 
+        set_of_chars.add(s[i]) #add the element back to set after removing duplicates  
+        length = max(length, i - left + 1) # to return the correct length, take max 
+        #of the current length and (the difference between the right and left pointer indices + 1)  
+    return length #return the length of the string without duplicates 
+# time complexity is O(n) because I utilized a HashSet and iterated through each element in the given string using # the two-pointer method (the left pointer starts at zero and increments by 1 to the right)  

@@ -1,0 +1,27 @@
+#n is the highest possible number
+#return the number that I picked
+def guessNumber(n: int) -> int:
+    low = 1
+    high = n
+    
+    #loop until we find pick
+    while high >= low:
+        #set guess number to halfway
+        mid = (high + low) // 2#don't worry about overflow in python
+        #based on guess number, set low or high
+        api_result = guess(mid)
+        if api_result == 0:
+            return mid
+        if api_result == 1:
+            low = mid + 1
+        if api_result == -1:
+            high = mid - 1
+        
+    return 0#should never reach this line of code - indicates an error
+
+
+#time complexity: O(log n)
+#space complexity: O(1)
+#this algorithm uses a binary search, which has an O(log n) time complexity since it repeatedly cuts all possible values in half with each iteration of the loop.
+#it uses a loop instead of a recursive call, which keeps the space complexity at O(1). The algorithm first assumes that pick can be any number from 1 to n and then
+# shrinks the lower and upper bounds until it finds pick. Since n can be up to 2^31 -1, binary serach is required because an O(n) solution may continue to run for an extremely long time.

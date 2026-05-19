@@ -1,0 +1,13 @@
+student_id,first_name,last_name,detected_language,status,extraction,files
+66281,Evan,Weisberg,python,extracted,text,class Solution.txt (direct)
+69560,Brian,Lin,java,extracted,text,brian technical interiew.txt (direct)
+73748,Sude,Genc,python,extracted,text,CS102 PAIRED TECHNICAL INTERVIEW-2.txt (direct)
+74837,Andrew,McBean,python,extracted,text,CS102 PAIRED TECHNICAL INTERVIEW.txt (direct)
+75870,Ethan,Wong,python,extracted,text,TechnicalInterview.txt (direct)
+77137,Maddie,Broderick,python,extracted,text,Copy of Copy of CS 102 Paired Technical Interview Printouts - General Info.pdf (pdf); MockTechnicalMaddieBroderick.py (direct)
+77139,Cheong Ting Eland,Chan,python,extracted,text,mock_interview.py (direct)
+77510,Jack,Stevens,pseudocode,extracted,text,Jack Stevens paried interview.txt (direct)
+77672,Solomon,Coverdale,python,extracted,text,Solomon.CS102 PAIRED TECHNICAL INTERVIEW.txt (direct)
+78296,Danila,Safronov,python,extracted,text,Quiz 3 Leetcode.txt (direct)
+78601,Tiffany,Lin,python,extracted,text,CS102 PAIRED TECHNICAL INTERVIEW.txt (direct)
+79145,Jason,Guo,python,extracted,text,interview.txt (direct)

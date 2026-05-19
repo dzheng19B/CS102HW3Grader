@@ -1,0 +1,99 @@
+"""
+Naman Kukreti
+
+Mahir Majlis
+
+Interviewer Form
+
+[Problem Given] Evaluate Reverse Polish Notation
+
+1) Problem Understanding
+ 4
+Was a "difficult" question, but interviewee broke it down while reading it, suggested stack implentation and knew what time complexity it should be solved in.
+2) Communication & Collaboration
+3
+Only negative was him rereading what I read, talked through the logic he wrote, and was silent at times.
+3) Implementation & Technical Depth
+Well done, some uneccessary code like a set and temp variables, but those didn'tadd to space or time complexity and improved readability.
+4) Team Fit & Working Style
+Was a confusing problem, kept talking through it while breaking it down and explaining logic of code while explaining. Didn't panic or go silent for too long.
+Final Evaluation
+On paper
+Final Decision
+On paper
+Candidate Form
+On paper
+[Insert Submitted Code]
+"""
+"""
+Candidate Naman Kukreti
+Guess Number Higher or Lower — Candidate
+Problem Information:  We are playing the Guess Game. The game is as follows:
+I pick a number from 1 to n. You have to guess which number I picked (the number I picked stays the same throughout the game). Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
+
+You call a pre-defined API int guess(int num), which returns three possible results:
+
+-1: Your guess is higher than the number I picked (i.e. num > pick).
+1: Your guess is lower than the number I picked (i.e. num < pick).
+0: your guess is equal to the number I picked (i.e. num == pick).
+Return the number that I picked. Constraints: 1 <= n <= 231 - 1,  1 <= pick <= n
+
+Example 1:
+
+Input: n = 10, pick = 6
+Output: 6
+Example 2:
+
+Input: n = 1, pick = 1
+Output: 1
+Example 3:
+
+Input: n = 2, pick = 1
+Output: 1
+U
+input:
+integer n
+output:
+the number you picked
+constraint:
+
+edgecase:
+
+Match:binary search
+
+Plan:
+while guess = 0
+	binary search iteration
+return mid
+Implement:
+def guessnumber(num):
+        L = 1
+        R = num
+        mid = (R+L)//2
+        while(guess(mid) != 0):
+                mid = (R+L)//2
+                if(guess(mid) == -1):
+                        R = mid-1
+                elif(guess(mid) == 1):
+                        L = mid + 1
+        return mid
+Review:
+Works on test cases
+Evaluate:
+O(log(n))
+"""
+
+def guessnumber(num):
+	#because pick is guarenteed to be in range, there's no need to check out of range/return -1 or not found
+	L = 1
+	R = num
+	mid = (R+L)//2
+	while(guess(mid) != 0):
+		mid = (R+L)//2
+		if(guess(mid) == -1):
+			R = mid-1
+		elif(guess(mid) == 1):
+			L = mid + 1
+	return mid
+		
+

@@ -1,0 +1,6 @@
+student_id,first_name,last_name,detected_language,status,extraction,files
+66867,Elaine,Zou,pseudocode,extracted,partial,MockTechnical.doc (doc)
+68745,Kristen,Lee,pseudocode,extracted,partial,CS102QUIZ3.doc (doc)
+69542,Xinlin,Wu,empty,manual-review,image-only,IMG_4908.JPG (image); IMG_4909.JPG (image); IMG_4910.JPG (image); IMG_4911.JPG (image)
+70003,Noel,Maldonado,empty,manual-review,image-only,IMG_5859.jpeg (image); IMG_5860.jpeg (image); IMG_5861.jpeg (image); IMG_5862.jpeg (image)
+77206,Ryan,Martin,pseudocode,empty,text,CS102 PAIRED TECHNICAL INTERVIEW.txt (direct)

@@ -1,0 +1,50 @@
+Interviewer Evaluation:
+Candidate Name: Tianna Balkam
+Interviewer Name: Rijaa Zaidi
+Date: 04/27/2026
+Problem Given: Longest Substring Without Repeating Characters
+
+Problem Understanding (0-4): 1
+Notes: recognized sliding window pattern and hashset, required step by step assistance across all parts of the problem
+
+Communication and Collaboration (0-4): 2
+Notes: Didn't address the interviewer very much, thoughts were spoken in parts rather than a full sentence, I had to questions to understand the problem rather than being asked questions
+
+Implementation and Technical Depth (0-4): 3
+Notes: correct solution after heavy assistance
+
+Team Fit and Working Style (0-4): 1
+Notes: Took a few attempts to recieve feedback, spent a not insignificant amount of time on disliking sliding window
+
+Total Score: 7/16
+Hiring Reccomendation: No Hire
+
+Final Decision (3-5 Sentences):
+Strignths: Tianna didn't outright reject advice and was open to recieving new information. 
+Weaknesses: That said, most of that information was about basic implementation and explaining how data structures worked, leaving little time for complexity analysis and discussion
+Reasoning: While I appreciate that she's open to learn, it took a lot of time and help to get to the final solution. Lack of technical skill ultimately swayed me to no hire.
+
+
+Leetcode Solution:
+Rijaa Zaidi
+Tianna Balkam
+
+def guessNumber(n: int) -> int:
+//n is input, we want pick
+//binary search
+
+l,r = 1, n
+
+while l <= r:
+	mid = (l + r) // 2
+	if guess(mid) == 0:
+		return mid
+	elif guess(mid) == 1:
+		l = mid + 1
+	else:
+	     r = mid - 1
+return 0
+
+
+Write-up:
+This solution uses binary search to cut down on the search range and find the solution in O(logn) time. by finding the middle value between l and r and adjusting each pointer based on the guess function output (increasing l if mid was less than pick and decreasing r if mid was greater than pick), the correct picked value will eventually found.

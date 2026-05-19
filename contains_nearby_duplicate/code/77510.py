@@ -1,0 +1,11 @@
+#Use a set to hold checked values of the array to compare the current index to the past values #to find duplicates
+#I can use the indexes within the set and then add that to the current list length to find the #original list indexes and compare them to K 
+
+Def containsNearbyDuplicate(nums: List[int], k: int) -> bool:
+        s = {}
+        For i in range(len(nums)):
+                if nums[i] in s:
+                        If(abs(i – s[nums[i]]) <= k):
+                                Return True
+                s[i] = nums[i]
+        return False

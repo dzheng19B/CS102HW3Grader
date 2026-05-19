@@ -1,0 +1,2 @@
+def guessNumber(n: int) -> int:left, right = 1, nwhile left =< right:mid = (left + right) // 2if guess(mid) == -1:right -
+if guess(mid) == 1:left += 1else:return mid

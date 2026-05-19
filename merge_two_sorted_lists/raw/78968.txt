@@ -1,0 +1,14 @@
+# Time complexity O(n)
+
+def mergeTwoList(list1, list2)
+    my_node = None
+    while list1.next != None and list2.next != None:
+        if list1.val > list2.val:
+            my_node.next = list1
+            list1 = list1.next
+            if list1 = None:
+                my_node = list2.next
+        else:
+            my_node.next = list2
+            list2 = list2.next
+    return my_node

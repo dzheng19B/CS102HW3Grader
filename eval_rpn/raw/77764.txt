@@ -1,0 +1,93 @@
+﻿Sean Carhart
+
+Vikram Minhas
+
+Interviewer Form
+
+Merge two sorted lists
+
+1) Problem Understanding
+
+3/4
+
+Notes:
+Initially misunderstood the question and started solving it with an arraylist, but quickly got back on track after a small redirection.
+
+2) Communication & Collaboration
+
+4/4
+
+Notes:
+Very able to explain everything they did and why they were doing it.
+
+3) Implementation & Technical Depth
+
+3/4
+
+Notes:
+Mostly correct, missed final part of the solution adding the rest of the larger linked list to the sorted one.
+
+4) Team Fit & Working Style
+
+4/4
+
+Notes:
+Very sociable. Had to quickly adapt after a brief misunderstanding.
+
+Final Evaluation
+
+14/16
+Hire
+
+Final Decision
+
+I would say this is definatley a hire. A slight weakness would be that he didn't read the problem close enough, which led to an incomplete solution and him having to restart. However, he was able to effectively explain his solution, was adaptable, and appeared very knowledgeable and confident.
+
+Candidate Form
+
+Problem: Evaluate Reverse Polish Notation - Candidate
+
+
+public int evalRPN(String[] tokens){
+deque<Integer> stack = new deque<>();
+for (int i = 0;  i < tokens.length; i++)
+{
+        String character = tokens[i];
+        if(character.equals(“+”))
+        {
+                int num2 = stack.pop();
+                int num1 = stack.pop();
+                int result = num1 + num2;
+                stack.push(result);
+        }
+        else if(character.equals(“-”))
+        {
+                int num2 = stack.pop();
+                int num1 = stack.pop();
+                int result = num1 - num2;
+                stack.push(result);
+        }
+        else if(character.equals(“*”))
+        {
+                int num2 = stack.pop();
+                int num1 = stack.pop();
+                int result = num1 * num2;
+                stack.push(result);
+        }
+        else if(character.equals(“/”))
+        {
+                int num2 = stack.pop();
+                int num1 = stack.pop();
+                int result = num1 / num2;
+                stack.push(result);
+        }
+        else
+        {
+                int num = character.parseInt();
+                stack.push(num);
+        }
+}
+return stack.pop();
+}
+
+The complexity of my solution is O(n). It iterates through the array, if the string character is an operator, then it pops the last two integers off of the stack and performs that operator on them, before adding that result back to the top of the stack. If the String character isn't an operator, then by the rules of the question it must be an integer, and that integer is simply added to the stack. Because it is in correct notation, I should not have to worry about an operator appearing before two integers and breaking the code. The last integer in the stack should be the arithmetic result, so return it.

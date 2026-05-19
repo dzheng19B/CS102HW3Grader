@@ -1,0 +1,52 @@
+4/27 CS102 Mock-Interview
+
+arr = [4,13,5, / , +]
+stack = [4,13,5]
+term1 = 5 , stack [4,13]
+term2 = 13, stack [4]
+[4,2]
+term1 = 2 , stack = [4]
+term2 = 4, stack =[]
+stack = [6]
+
+def evalRPN(arr) :
+	stack = []
+	term1 = ""
+	term2 = ""
+ 	for i in range(len(arr)):
+		if (len(arr) == 1):
+			return arr
+		if arr[i].isDigit():
+			stack.push(arr[i])
+		if arr[i] == "*":
+			term1 = stack[-1]
+			stack.pop()
+			term2 = stack[-1]
+			stack.pop()
+			term2 = int(term1)*int(term2)
+			stack.push(term2)
+		if arr[i] == "/":
+			term1 = stack[-1]
+			stack.pop()
+			term2 = stack[-1]
+			stack.pop()
+			term2 = int(term2)/int(term1)
+			stack.push(term2)
+		if arr[i] == "+":
+			term1 = stack[-1]
+			stack.pop()
+			term2 = stack[-1]
+			stack.pop()
+			term2 = int(term1)+int(term2)
+			stack.push(term2)
+		if arr[i] == "-":
+			term1 = stack[-1]
+			stack.pop()
+			term2 = stack[-1]
+			stack.pop()
+			term2 = int(term2)-int(term1)
+			stack.push(term2)
+	return stack[-1]
+
+
+

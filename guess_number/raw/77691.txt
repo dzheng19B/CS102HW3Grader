@@ -1,0 +1,68 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+[Your Name] Qianjun Ryan Zhou
+
+[Your Partner's Name] Kenneth Ng
+
+Interviewer Form
+
+[Problem Given] Merge Two Sorted Lists 
+
+1) Problem Understanding
+4
+-Quickly understood the premise of the solution and that it needed two pointer to be most efficient
+-Found edge cases and simple construction that allows you to resolve the issues
+-Ended up using a weird form of two pointer that was exactly the same as the solution. Making sure to keep the return value of the head stored.
+
+2) Communication & Collaboration
+4
+-Very adaptive, follows whatever structure the node class needs to be and asks for base code on those.(unable to be given)
+-Understanding to many possible solutions and understands in which cases certain solution can be more efficient/fit the use case. 
+-Feedback/hint were understood very well.
+
+3) Implementation & Technical Depth
+4
+-Very linear programmer, finds the line that he needs to code and follows it step by step.
+-Gets the main idea of the function down and then resolves the intricacies.
+
+4) Team Fit & Working Style
+4
+-Very calm under pressure, got the solution out in a reasonable amount of time and was fine with being wrong in certain parts of the code. 
+-Takes alot of pride in his own code, understands that the code needs to be perfect before being allowed to be added to the final product and took time to triple check his work to make sure it doesn't cause any problems.
+
+
+Final Evaluation
+16/16 Strong Hire 
+
+Final Decision
+He was able to understand and solve the problem on his own in a reasonable amount of time and produced code worth of being pushed onto the final product. The solution was as efficient as possible and he understood what changes could be made to fit a different restriction. There were confusing edge cases that he needed hints for but I wouldn't blame him for it.
+
+Candidate Form
+
+Guess Number Higher or Lower
+
+def guessNumber(n: int) -> int:
+	min = 1
+	max = n
+	while True:
+		currGuess = min + ((max - min) // 2)
+		guessRet = guess(currGuess)
+		if (guessRet == 1):
+			min = currGuess + 1
+		if (guessRet == -1):
+			max = currGuess - 1
+		if (guessRet == 0):
+			return currGuess
+"""
+I get 1 input n which is the possible numbers that I can return. I get a helper function which has 1 of 3 returns in an int which can guide my while loop.
+The fastest this solution can be is log(n) since it tells if the guess is higher or lowers. We used a binary search which is O(log(n)) and the space complexity since we only needed to save 3 value is O(1).
+I know i need a while loop since thats how I would code the binary search. I know I need to keep track of the range of values so i need two constants a min possible value and a max possible value. And then theres just the 3 cases of if statements. 
+"""

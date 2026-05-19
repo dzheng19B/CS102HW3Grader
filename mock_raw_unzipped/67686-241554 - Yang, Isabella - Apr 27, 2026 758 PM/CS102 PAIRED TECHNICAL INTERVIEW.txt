@@ -1,0 +1,57 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Isabella Yang
+
+Zeynep Sude Genc
+
+Interviewer Form
+
+Contains Duplicate II
+
+1) Problem Understanding
+	4
+
+2) Communication & Collaboration
+	4
+
+3) Implementation & Technical Depth
+	3
+
+4) Team Fit & Working Style
+	4
+
+Final Evaluation
+	15/16, Strong Hire
+
+Final Decision
+	I would hire this person! She is able to explain how to approach the solution and the process behind implementing it. Also super friendly!
+
+Candidate Form
+
+def lengthOfLongestSubstring(s: str) -> int:
+    left = maxLength = 0
+    # right = 0
+    stringSet = set()
+
+    for right in range (len(s)):
+        while s[right] in stringSet:
+            stringSet.remove(s[left])
+            left += 1
+
+        stringSet.add(s[right])
+        maxLength = max(maxLength, right - left + 1)
+
+    return maxLength
+
+# Approaching this problem using sliding window + set 
+# The time complexity is O(n), even though there is a nested while loop, it's still in linear time since each character
+# is added and removed at most once. The right pointer goes through everything and left goes through it n times
+# The space complexity is O(min(n,k)) since  the memory usage depends on the smaller input of n, k

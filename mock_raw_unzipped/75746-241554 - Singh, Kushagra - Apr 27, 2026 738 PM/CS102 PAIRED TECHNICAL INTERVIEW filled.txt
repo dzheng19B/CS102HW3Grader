@@ -1,0 +1,52 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+
+Kushagra Singh
+
+Varun Karamchandani
+
+Interviewer Form
+
+Merge two lists
+
+1) Problem Understanding
+Rating: 4
+Candidate quickly identified the need to compare nodes iteratively and understood the linked list structure well. Asked a clarifying question about null/empty inputs which showed good awareness.
+2) Communication & Collaboration
+Rating: 4
+Walked through their thought process clearly before jumping into code. Receptive to hints and explained their reasoning at each step. Good energy throughout.
+3) Implementation & Technical Depth
+Rating: 3
+Got a working solution. Could have discussed time/space complexity more proactively — needed a prompt to bring it up. Mentioned the iterative vs recursive tradeoff which was a nice touch.
+4) Team Fit & Working Style
+Rating: 4
+Stayed calm under pressure, asked good questions, and was collaborative. Would work well in a team setting.
+Final Evaluation:
+Strong candidate overall. Solid fundamentals and good communication. Minor gap in spontaneously analyzing complexity.
+Final Decision: Hire
+
+Candidate Form
+
+Problem: Evaluate Reverse Polish Notation
+
+from typing import List
+
+def evalRPN(tokens: List[str]) -> int:
+    stack = []
+    ops = {
+        '+': lambda a, b: a + b,
+        '-': lambda a, b: a - b,
+        '*': lambda a, b: a * b,
+        '/': lambda a, b: int(a / b)
+    }
+    
+    for token in tokens:
+        if token in ops:
+            b, a = stack.pop(), stack.pop()
+            stack.append(ops[token](a, b))
+        else:
+            stack.append(int(token))
+    
+    return stack[0]
+
+

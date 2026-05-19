@@ -1,0 +1,22 @@
+# the two elements have to be the same
+# the difference of the indices of the same element has to be less than or equal to k
+
+#this duplicates 
+
+#hash table 
+
+# O(N)
+
+def containsNearbyDuplicate(nums: List[int], k: int) -> bool:
+    num_set = {}
+
+    for i, num in enumerate(nums):
+        temp = num_set.get(num)
+        if temp and abs(temp - i) <= k:
+            return true
+        
+        num_set[num] = i
+
+    return false
+            
+            

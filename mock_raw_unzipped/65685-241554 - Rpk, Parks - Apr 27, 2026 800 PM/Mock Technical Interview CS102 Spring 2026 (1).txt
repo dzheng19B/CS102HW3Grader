@@ -1,0 +1,53 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+[Your Name : Parks RPK ]
+
+[Your Partner's Name : Zhi Xiong lu]
+
+
+
+
+
+Interviewer Form
+
+[Problem Given]
+
+1) Problem Understanding [4]
+ - He quite got the problem in the first read , and explained me pretty well and also once I confirmed his understanding is right he explained me the time complexity right after.
+2) Communication & Collaboration [4]
+ - very clear and structure explanation bruh just drawn the whole thing in the paper and explain so good step by step.
+3) Implementation & Technical Depth [3]
+-The one point where he tripped a little bit is when I asked him what is the optimal solution time complexity, (Though his solution was a optimal) he was thinking and asked an clarifying question, somehow atlast he was not tricked and came back to the track
+4) Team Fit & Working Style
+ - He was energetic and ran his test case walkthrough pretty well, also he always asked me whether I am following each and every step, which I think is a really a great thing when it comes to the real world when working as a group.
+Final Evaluation
+
+Final Decision
+Bruh is PASSED!
+
+
+
+Candidate Form
+
+This is Parks' code as an candidate:
+[
+def guessNumber(n: int) -> int:
+    l, r = 1, n                    
+    while l <= r:                  
+        mid = (l + r) // 2
+        result = guess(mid)        
+        if result == -1:
+            r = mid - 1
+        elif result == 1:
+            l = mid + 1
+        else:
+            return mid
+                                  ]

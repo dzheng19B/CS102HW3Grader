@@ -1,0 +1,65 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Ivan Cheung
+
+William Conroy
+
+Interviewer Form
+
+Length of Longest Substring
+
+1) Problem Understanding
+	4
+
+2) Communication & Collaboration
+	4
+
+3) Implementation & Technical Depth
+	4
+
+4) Team Fit & Working Style
+	4
+
+Final Evaluation
+	16
+
+Final Decision
+The candidate asked questions to fully understand the task. He was able to work calmly and explained his thought process. He did have trouble with some concepts but overall was knowledgeable about the task.
+
+Candidate Form
+
+def evalRPN(tokens: List[str]) -> int:
+
+	stack = []
+	for e in tokens:
+		
+		if e == "+":
+			stack.append(stack.pop() + stack.pop())
+		
+		elif e == "-":
+			second = stack.pop()
+			first = stack.pop()
+			stack.append(first - second)
+
+		elif e == "*":
+			
+			stack.append(stack.pop() * stack.pop())
+		
+		elif e == "/":
+			second = stack.pop()
+			first = stack.pop()
+			stack.append(int(first / second))
+		
+		else:
+			stack.append(int(e))
+		
+	return stack[0]
+

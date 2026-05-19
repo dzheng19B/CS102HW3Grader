@@ -1,0 +1,20 @@
+Andrew McBean
+
+Jin Noh
+
+The time complexity of the code is O(n). The function utilizes a fixed sliding window where both pointers are incremented checking for the condition of whether there are duplicates. To check the duplicates I used a hash map, but a hash set could have also been used to simplify the if statements. It solves the problem by returning True when a duplicate is detected and False if the entire function runs without a return.
+
+def containsNearbyDuplicate(nums: List[int], k:int) -> bool:
+    unqique = {}
+    for i in range(k):
+        if unique.get(num[i], 0) == 0:
+            unique[nums[i]] = i
+        else:
+            return True
+    for i in range(k, len(nums)):
+        if unique.get(nums[i], 0) == 0:
+            unique[nums[i]] = i
+        else:
+            return True
+        dic.remove(nums[i-k])
+    return False

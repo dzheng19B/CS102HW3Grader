@@ -1,0 +1,42 @@
+Jake Steck
+
+Ryan Tsui
+
+Interviewer Form
+
+Merge Two Sorted Lists
+
+1) Problem Understanding
+	4
+
+2) Communication & Collaboration
+	4
+
+3) Implementation & Technical Depth
+	4
+	
+4) Team Fit & Working Style
+	3
+
+Final Evaluation
+	15/16
+
+Final Decision
+	Strong Hire
+
+Candidate Form
+
+def lengthOfLongestSubstring(s: str) -> int:
+    charSet = set()
+    result = 0
+    length = len(s)
+    left = 0
+    
+    for right in range(length):
+        while s[right] in charSet:
+            charSet.remove(s[left])
+            left += 1
+        charSet.add(s[right])
+        result = max(result, right - left + 1)
+    return result
+    

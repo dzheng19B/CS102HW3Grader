@@ -1,0 +1,70 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+[Lilian Yuan]
+
+[Solomon Coverdale]
+
+Interviewer Form
+
+[Contains Duplicate II] (Just the Name of the Problem is fine)
+
+1) Problem Understanding
+
+3 - Mostly lear, minor clarifications
+Notes:
+asked good questions and made sure to understand the problem fully before starting
+
+2) Communication & Collaboration
+
+3 - Clear, receptive, reasonably collaborative
+Notes:
+made sure to explain the code but sometimes would hesitate
+
+3) Implementation & Technical Depth
+
+4- clean, correct, well-tested solution with strong optimization and tradeoff discussion
+Notes:
+used the optimal data structure for this problem
+
+4) Team Fit & Working Style
+
+4- Strong team asset; calm under uncertainty, humble, ownership mindset
+Notes:
+asked good clarifying questions, talked calmly, seemed to think through the problem
+
+Final Evaluation: 
+14/16
+Hire
+
+Final Decision
+Candidate was calm and made clarifying questions. I liked how he thought through the process before starting the code. There were times where he would hesitate while writing code but I think he was just making sure what he was doing was right. 
+
+Candidate Form - Guess Number Higher or Lower
+
+public int guessNumber(int n){
+	int min= 1;
+	int max = n;
+
+	while(min<=max){
+		int pick = n/2;
+		int guess = guess(pick);
+		if(guess == -1){
+			min = pick-1;
+		}
+		else if(guess == 1){
+			max = pick;
+		else{
+			return pick;
+		}
+	}
+	return 0;
+
+}

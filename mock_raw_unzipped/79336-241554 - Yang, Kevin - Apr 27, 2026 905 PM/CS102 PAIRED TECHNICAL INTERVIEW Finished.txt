@@ -1,0 +1,33 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit. The interviewer form & candidate reflection should be submitted on paper. The candidate code should be submitted with the format below:
+
+We encourage you to comment your code if you'd like!
+
+[Your Name]
+Kevin Yang
+
+[Your Partner's Name]
+Christian Z.
+
+Candidate Form
+
+[Insert Submitted Code]
+public int guessNumber(int n){
+	int low = 1;
+	int high = n;
+	int middleNum = (int) n /2;
+	while(true){
+		if(guess(middleNum) == 0){ //Equals
+			return middleNum;
+		}else if(guess(middleNum) == -1){ //High
+			high = middleNum;
+		}else{//Low
+			low = middleNum;
+		}
+		middleNum = (high - low) / 2 + low;
+	}
+}

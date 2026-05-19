@@ -1,0 +1,62 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Ryan Zhang
+
+Tiffany Lin
+
+Interviewer Form
+
+Contains Duplicates
+
+1) Problem Understanding
+Score: 3
+- Was slightly confused about the problem, asked for clarification about the test cases as a result
+- otherwise was mostly able to understand what the problem was asking
+
+2) Communication & Collaboration
+Score: 3
+- was very clear about her train of thought in approaching the problem
+- was willing to cooperate in solving the problem very well
+
+3) Implementation & Technical Depth
+Score: 3
+- solution was implemented very well, near identical to the sample code
+- was able to identify the code as being O(n)
+- needed a bit of nudging in the right direction
+
+4) Team Fit & Working Style
+Score: 3
+- was willing to hear and accept feedback
+- used feedback to guide her solution to the problem
+
+Final Evaluation
+Score: 12
+Lean Hire
+
+Final Decision
+Candidate was able to think very logically about the problem, had a rough idea of how to approach the problem. However her initial interpretation of the problem was somewhat of a concern. This could be attributed to a slight oversight however, so overall it was fine. 
+
+Candidate Form
+
+def lengthOfLongestSubstring(s: str) -> int:
+	chars = set()
+	max = 0
+	left = 0
+
+	for i in range(len(s)):
+		while s[i] in chars:
+			chars.remove(s[left])
+			left += 1
+		chars.add(s[i])
+		max = len(chars)
+	return max
+
+# I chose to create a hashset, which would only store unique characters in it. I defined a variable max for storing the max value, and left so that I could iterate through the string as sort of a sliding window. After iterating through everything, I returned the value stored in max. Should be O(n).

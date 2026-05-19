@@ -1,7 +1,0 @@
-{
-  "student_id": "B01150044",
-  "load_error": "compile error: C:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01150044_tnmedph5\\Solution.java:3: error: '(' expected\nwhile i < j;\n     ^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01150044_tnmedph5\\Solution.java:3: error: ')' expected\nwhile i < j;\n           ^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01150044_tnmedph5\\Solution.java:5: error: '(' expected\nif nums[i] + nums[j] <= T\n  ^\nC:\\Users\\danz3\\AppData\\Local\\Temp\\jgrade_B01150044_tnmedph5\\Solution.java:5: error: ')' expected\nif nums[i] + nums[j] <= T\n          ",
-  "results": [],
-  "tests_passed": 0,
-  "tests_failed": 0
-}

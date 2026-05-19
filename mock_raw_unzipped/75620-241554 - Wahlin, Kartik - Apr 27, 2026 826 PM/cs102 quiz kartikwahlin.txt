@@ -1,0 +1,55 @@
+Kartik Wahlin
+Shunyi Chen
+
+Interviewer Form
+
+[Problem Given] (Just the Name of the Problem is fine)
+
+1) Problem Understanding : 4/4
+Asks confirming questions and runs through time complexities for patterns before finding the best pattern
+2) Communication & Collaboration: 4/4
+Clearly indicated his thought process. Worked with feedback and checked in with interviewer when coming up with ideas.
+3) Implementation & Technical Depth 4/4 
+After careful thought, solution implements correct patterns for an O(n) time. Code doesn’t contain any excess
+4) Team Fit & Working Style 4/4
+Open to feedback and willing to adapt when ideas didn’t work out. Kept a constructive mindset.
+Final Evaluation
+16/16
+Strong Hire
+Final Decision
+Candidate held a growth mindset and kept adapting to learn from mistakes. He was open to feedback and knew about the correct algorithm after considering others. 
+One weakness was that he was unfamiliar with python, and initially went for an inconvenient data structure instead of going straight for a hash set.
+I decided he was a strong hire because he was able to learn quickly and displayed the necessary technical knowledge. He had a strong understanding of the problem by the end and I could follow his thought process.
+Candidate Form:
+Evaluate Reverse Polish Notation:
+
+def evalRPN(tokens: List[str]) -> int:
+	tack = []
+	num1 = 0 
+	num2 = 0
+	for bench in tokens:
+		if bench == “+”:
+			num1 = tack.pop()
+			num2 = tack.pop()
+			tack. append(num1+num2)
+		elif bench == “-”:
+			num1 = tack.pop()
+			num2 = tack.pop()
+			tack. append(num1-num2)
+		elif bench == “/”:
+			num1 = tack.pop()
+			num2 = tack.pop()
+			tack. append(num1/num2)
+		elif bench == “*”:
+			num1 = tack.pop()
+			num2 = tack.pop()
+			tack.append(num1*num2)
+		else:
+			tack.append(int(bench)) #if the element is not an operator, it can be cast to an int.
+	return tack.pop()
+#explanation on paper.
+#Stack of encountered numbers - String array
+#When we hit an operator, we condense the last 2 numbers into their result and add it back into the stack.
+#repeat until end of array, where stack size = 1. Return int value.
+
+#Edge cases are safe: min size is 1 and a valid arithmetic operation is guaranteed

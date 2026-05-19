@@ -1,0 +1,26 @@
+def lengthOfLongestSubstring(s: str) -> int:
+
+	maxString = 0
+
+	duplicate = {}
+
+	left = 0
+	
+	for right in range(len(s.str)):
+
+		window_sum += s.str [r]
+
+		while left < len(s.str)
+			window_sum == s.str[left
+			left += 1
+
+		if (s.substring(i) != (s.subtring[i+1]):
+			maxString =+ 1
+
+		elif (s.subtring(i) == s.subtring[i+1]):
+			maxString =+ 1
+			
+			return (maxString)
+
+
+

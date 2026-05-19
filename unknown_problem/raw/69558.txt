@@ -1,0 +1,52 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit. The interviewer form & candidate reflection should be submitted on paper. The candidate code should be submitted with the format below:
+
+We encourage you to comment your code if you'd like!
+
+[Your Name]
+Jiarong Zhang
+
+[Your Partner's Name]
+Gaven Chan
+
+Interviewer Form
+
+Candidate asked clarifying questions regarding the problem
+Commented pseudocode before actually writing any code
+Talked about his implementation and asked questions 
+Asked questions whenever was stuck
+Implementation was correct
+	At first was not optimal but after some 
+
+Candidate Form
+
+[Insert Submitted Code]
+if(s.length() == 0){
+		return 0;	
+	}
+	int maxLen = 1;
+	int currLen = 1;
+	HashSet<Character> set = new HashSet<>();
+	StringBuilder sb = new StringBuilder();
+	for(int i = 0; i<s.length(); i++){
+		char c = s.charAt(i);
+		if(!set.contains(c)){
+			sb.append(c);
+			currLen++;
+			set.add(c);
+		}else{
+			while(set.contains(c) || sb.length() > 0){
+				char first = sb.charAt(0);
+				set.remove(c);
+			}
+			currLen = 1;
+			sb.append(c);
+		}
+		maxLen = Math.max(currLen, maxLen);
+	}
+	return maxLen;	
+

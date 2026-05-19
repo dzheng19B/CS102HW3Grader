@@ -1,0 +1,65 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit.
+In general, you should submit at least a number and some notes for the interviewer side, and your full code solution for the Candidate.
+
+We encourage you to comment your code if you'd like!
+
+Tiffany Lin
+
+Ryan Zhang
+
+Interviewer Form
+
+Longest Substring Without Repeating Characters
+
+1) Problem Understanding
+3/4
+-Identified that it was hashmap at first and changed to hashsets after hints provided
+- Needed help understanding how hashset works
+- Said "Didn't read the problem correctly" but after explantation he understood
+
+2) Communication & Collaboration
+3/4
+- Asks question when needed the help
+- Was clear on what he wanted to do
+- Explained the whole code/working on the code fully/ Explained the reasoning about every single line
+
+3) Implementation & Technical Depth
+3/4
+- Solution was close to the actual given code, but wasn't exact code but he did it not exactly the same
+- Overall went the right path after guidance 
+- 90% similar to the solution
+- Solution should be able to run
+4) Team Fit & Working Style
+3/4
+-No signs of acting defensive,nor resistant to feedback
+- Stands up to mistake and thanks for the help given
+- Was easy to work with, didn't stiff up or have signs of bad communication skills/ wasn't awkward
+Final Evaluation
+12/16
+Lean Hire
+Final Decision
+Was a okay communcatior, but I wouldn't consider him the best, as at some time he would repeat asking questions since he didn't understand or freeze for a few seconds. Explained the step by step really well on why this would work and how it works. He didn't mention anything about the time complexity. I made this decision because there might be better candidates out there and he did pretty average, but nothing outstanding.
+
+Candidate Form
+
+Contains Duplicate II
+def containsNearbyDuplicate(nums:List[int],k:int) --> bool:
+    d = {}
+    
+    for i,j in enumerate(nums):
+        if j in d and i - d[j] <= k:
+            return true
+        else:
+            d[j] = i   
+            
+        return false
+        
+        
+I started out thinking it was a sliding window/two pointer two sum problem which the interviewer said would work but the time complexity would be O(N^2) and asked if I 
+can make it faster, so he guided me to use a hashmap. I used enumerate instead of range becauseit would check the indicies and nums and i added to the dic if it did not 
+seen yet. and checked if the incides subtracted from each other is less than equal to k if so return true if not return false. So i made it a O(N) time complexity.

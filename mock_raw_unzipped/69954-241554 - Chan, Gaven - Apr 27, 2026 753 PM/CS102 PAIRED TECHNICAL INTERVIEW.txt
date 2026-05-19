@@ -1,0 +1,44 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit. The interviewer form & candidate reflection should be submitted on paper. The candidate code should be submitted with the format below:
+
+We encourage you to comment your code if you'd like!
+[Your name]
+Gaven Chan
+
+[Your partner's name]
+Jiarong Zhang
+
+Candidate Form
+
+[Insert Submitted Code]
+#-1 if its higher
+#1 if its lower
+#0 if equal 
+
+#constraints x >= 1 
+#guess() = some_number
+#n is the upper limit 
+#1, 2, 3, 4 ... n 
+#n/2
+
+def guessingGame(int n):
+	lower = 1
+	upper = n
+	
+	while(guess() != 0):
+		middle = (upper + lower)/2
+		if guess(middle) == 0:
+			return middle
+		
+		if guess(middle) == -1:
+			upper =  middle - 1
+			
+		if guess(middle) == 1:
+			lower = middle + 1
+	
+			
+	

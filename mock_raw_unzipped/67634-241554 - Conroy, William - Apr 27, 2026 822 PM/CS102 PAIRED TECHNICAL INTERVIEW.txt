@@ -1,0 +1,46 @@
+CS102 PAIRED TECHNICAL INTERVIEW
+
+This is the template for what you are expected to submit for the CS102 PAIRED Technical Interview.
+Please make sure you have your items in this order when you submit so the we can grade it easier🙏
+
+Refer back to the Paired Technical Interview Print outs to the content you should submit. The interviewer form & candidate reflection should be submitted on paper. The candidate code should be submitted with the format below:
+
+We encourage you to comment your code if you'd like!
+
+William Conroy
+
+Ivan Cheung
+
+Candidate Form
+
+
+
+Final Decision for Ivan:
+15/16 Strong Hire
+
+
+Overall Ivan is a strong hire. While he was a little lost at the start he talked it through and was able to piece everything together throughout the interview. After helping with the data structure he wrote pseudocode to ensure he had a plan. He also asked communicated his ideas ensuring he was on the right track along the way. (Other comments on paper)
+
+
+
+Technical Interview
+
+def lengthOfLongestSubstring(s: str) -> int:
+
+l = 0
+
+windowSum = 0
+
+h = set()
+
+for right in range(len(s)):
+	while s[right] in h:
+		h.remove(s[l])
+		l += 1
+	h.add(s[right])
+	windowSum = max(windowSum, right - l + 1)
+
+return windowSum
+		
+
+ 
