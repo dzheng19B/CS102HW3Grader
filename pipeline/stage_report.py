@@ -80,7 +80,7 @@ def escape_md(text):
 
 def generate_report():
     rows = load_manifest()
-    rows.sort(key=lambda r: (r["problem"], r["last_name"].lower(), r["first_name"].lower()))
+    rows.sort(key=lambda r: (r["last_name"].lower(), r["first_name"].lower()))
     grading = load_grading_results()
 
     # --- stats ---
@@ -151,11 +151,8 @@ def generate_report():
     w("|--:|---------|----------|------:|----------|---------|--------------|")
 
     def summary_sort_key(r):
-        key = (r["student_id"], r["problem"])
-        g = grading.get(key)
         name = f"{r['last_name']}, {r['first_name']}".lower()
-        is_pass = 0 if (g and g["status"] == "graded" and g["passed"] == g["total"]) else 1
-        return (r["problem"], is_pass, name)
+        return name
 
     rows_sorted = sorted(rows, key=summary_sort_key)
 
@@ -192,13 +189,7 @@ def generate_report():
     w("## Student Details")
     w("")
 
-    current_problem = None
     for r in rows:
-        if r["problem"] != current_problem:
-            current_problem = r["problem"]
-            w(f"### {PROBLEM_DISPLAY.get(current_problem, current_problem)}")
-            w("")
-
         sid = r["student_id"]
         name = f"{r['first_name']} {r['last_name']}"
         prob_dir = r["problem"] if r["problem"] != "unknown_problem" else "unknown_problem"

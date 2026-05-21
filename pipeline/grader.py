@@ -623,9 +623,27 @@ def unwrap_class_solution(code):
 
 
 def strip_self_param(code):
-    code = re.sub(r"def\s+(\w+)\s*\(\s*self\s*,\s*", r"def \1(", code)
-    code = re.sub(r"def\s+(\w+)\s*\(\s*self\s*\)", r"def \1()", code)
-    return code
+    lines = code.split("\n")
+    result = []
+    inside_non_solution_class = False
+    class_indent = 0
+    for line in lines:
+        stripped = line.lstrip()
+        indent = len(line) - len(stripped)
+        if re.match(r"class\s+(?!Solution)\w+", stripped):
+            inside_non_solution_class = True
+            class_indent = indent
+            result.append(line)
+            continue
+        if inside_non_solution_class and stripped and indent <= class_indent and not stripped.startswith("#"):
+            inside_non_solution_class = False
+        if inside_non_solution_class:
+            result.append(line)
+        else:
+            line = re.sub(r"def\s+(\w+)\s*\(\s*self\s*,\s*", r"def \1(", line)
+            line = re.sub(r"def\s+(\w+)\s*\(\s*self\s*\)", r"def \1()", line)
+            result.append(line)
+    return "\n".join(result)
 
 
 def strip_self_calls(code, problem):
@@ -1075,8 +1093,7 @@ def write_grading_report(results):
     def sort_key(r):
         m = manifest_rows.get(r["student_id"], {})
         name = f"{m.get('last_name','?')}, {m.get('first_name','?')}".lower()
-        is_pass = 0 if (r["status"] == "graded" and r["passed"] == r["total"]) else 1
-        return (r["problem"], is_pass, name)
+        return name
 
     results_sorted = sorted(results, key=sort_key)
     for i, r in enumerate(results_sorted, 1):
@@ -1100,13 +1117,7 @@ def write_grading_report(results):
     w("## Student Details")
     w("")
 
-    current_problem = None
     for r in results_sorted:
-        if r["problem"] != current_problem:
-            current_problem = r["problem"]
-            w(f"### {PROBLEM_DISPLAY.get(current_problem, current_problem)}")
-            w("")
-
         m = manifest_rows.get(r["student_id"], {})
         name = f"{m.get('first_name','?')} {m.get('last_name','?')}"
         sev = r.get("severity")
